@@ -223,6 +223,21 @@ const translations = {
   "projects.filterLandscape": { ar: "تنسيق المناظر الطبيعية", en: "Landscaping" },
   "projects.filterWater": { ar: "الأنظمة المائية", en: "Water Systems" },
 
+  // Policies Page
+  "policies.pageTitle": { ar: "السياسات والشهادات", en: "Policies & Certificates" },
+  "policies.intro": {
+    ar: "نعتمد على سياسات صارمة للصحة والسلامة والبيئة والجودة وأعلى معايير الامتثال الدولية",
+    en: "We adhere to strict HSE, Quality, and Sustainability policies with highest international compliance standards",
+  },
+  "policies.hse": { ar: "سياسات الصحة والسلامة والبيئة", en: "HSE Policies" },
+  "policies.quality": { ar: "سياسات الجودة", en: "Quality Policies" },
+  "policies.sustainability": { ar: "الاستدامة والمسؤولية الاجتماعية", en: "Sustainability & CSR" },
+  "policies.certificates": { ar: "الشهادات والاعتمادات", en: "Certifications" },
+  "policies.iso9001": { ar: "ISO 9001", en: "ISO 9001" },
+  "policies.iso14001": { ar: "ISO 14001", en: "ISO 14001" },
+  "policies.iso45001": { ar: "ISO 45001", en: "ISO 45001" },
+  "policies.icv": { ar: "شهادة ICV", en: "ICV Certificate" },
+
   // Footer
   "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
