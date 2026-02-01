@@ -25,7 +25,7 @@ const translations = {
     en: "Building the Future with Strength & Expertise",
   },
   "hero.subtitle": {
-    ar: "شركة طسير لتكييف عام متخصصة في البنية التحتية والطرق والمناظر الطبيعية في الإمارات العربية المتحدة",
+    ar: "شركة طسير متخصصة في البنية التحتية والطرق والمناظر الطبيعية والصيانة في الإمارات العربية المتحدة",
     en: "Leading infrastructure and construction company specializing in roads, landscaping, and maintenance solutions across the UAE",
   },
   "hero.cta": { ar: "استكشف المشاريع", en: "Explore Projects" },
@@ -56,6 +56,33 @@ const translations = {
   // Featured Projects
   "projects.featured": { ar: "المشاريع المميزة", en: "Featured Projects" },
   "projects.viewall": { ar: "عرض جميع المشاريع", en: "View All Projects" },
+
+  // About Page
+  "about.title": { ar: "عن طسير", en: "About Tasyeer" },
+  "about.founded": { ar: "تأسست عام", en: "Founded in" },
+  "about.intro": {
+    ar: "شركة طسير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة.",
+    en: "Tasyeer General Contracting is a leading infrastructure support services company based in the UAE. With a history dating back to 2019, we have established ourselves as a key player in various sectors including highways, transportation, railway, energy, waste management, and utilities.",
+  },
+  "about.vision.title": { ar: "رؤيتنا", en: "Our Vision" },
+  "about.vision.content": {
+    ar: "أن نكون شركة رائدة ومبتكرة في السوق الإقليمية لخدمات الهندسة المدنية والمقاولات.",
+    en: "To be a pioneering and innovative company in the regional market for civil engineering and construction services.",
+  },
+  "about.mission.title": { ar: "رسالتنا", en: "Our Mission" },
+  "about.mission.content": {
+    ar: "تقديم خدمات هندسية بناء عالمية الجودة توفر حلولاً فعالة وميسورة التكلفة ومستدامة وعالية الجودة.",
+    en: "To be a world-class engineering construction company providing efficient, affordable, sustainable, and high-quality services.",
+  },
+  "about.values.title": { ar: "قيمنا", en: "Our Values" },
+  "about.values.content": {
+    ar: "نحن ننتمي للتميز والجودة والمهنية والنزاهة والإبداع والموقف الإيجابي في كل ما نقوم به.",
+    en: "We maintain the highest standards of professionalism, integrity, creativity, and a positive attitude in everything we do.",
+  },
+  "about.commitment": {
+    ar: "التزامنا بالتميز في تقديم خدمات البناء والهندسة عالية الجودة مع ضمان المشاريع الناجحة وفعالة التكلفة.",
+    en: "Our commitment to delivering top-quality construction expertise and services, ensuring cost-effective and successful projects.",
+  },
 
   // Footer
   "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
