@@ -25,7 +25,7 @@ const translations = {
     en: "Building the Future with Strength & Expertise",
   },
   "hero.subtitle": {
-    ar: "شركة طسير متخصصة في البنية التحتية والطرق والمناظر الطبيعية والصيانة في الإمارات العربية المتحدة",
+    ar: "شركة تسيير متخصصة في البنية التحتية والطرق والمناظر الطبيعية والصيانة في الإمارات العربية المتحدة",
     en: "Leading infrastructure and construction company specializing in roads, landscaping, and maintenance solutions across the UAE",
   },
   "hero.cta": { ar: "استكشف المشاريع", en: "Explore Projects" },
@@ -58,10 +58,10 @@ const translations = {
   "projects.viewall": { ar: "عرض جميع المشاريع", en: "View All Projects" },
 
   // About Page
-  "about.title": { ar: "عن طسير", en: "About Tasyeer" },
+  "about.title": { ar: "عن تسيير", en: "About Tasyeer" },
   "about.founded": { ar: "تأسست عام", en: "Founded in" },
   "about.intro": {
-    ar: "شركة طسير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة.",
+    ar: "شركة تسيير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة.",
     en: "Tasyeer General Contracting is a leading infrastructure support services company based in the UAE. With a history dating back to 2019, we have established ourselves as a key player in various sectors including highways, transportation, railway, energy, waste management, and utilities.",
   },
   "about.vision.title": { ar: "رؤيتنا", en: "Our Vision" },
@@ -265,7 +265,7 @@ const translations = {
   },
 
   // Footer
-  "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
+  "footer.about": { ar: "عن تسيير", en: "About Tasyeer" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
   "footer.contact": { ar: "معلومات الاتصال", en: "Contact Information" },
   "footer.location": { ar: "منطقة الكاد 1، أبو ظبي", en: "ICAD1, Abu Dhabi" },

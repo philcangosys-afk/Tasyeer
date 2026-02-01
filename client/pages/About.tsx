@@ -48,7 +48,7 @@ export default function About() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              {isArabic ? "عن طسير" : "About Tasyeer"}
+              {isArabic ? "عن تسيير" : "About Tasyeer"}
             </h1>
             <div className="h-1 w-24 bg-tasyeer-orange mx-auto mb-6"></div>
             <p className="text-xl text-gray-100 max-w-3xl mx-auto">
@@ -74,7 +74,7 @@ export default function About() {
               </h2>
               <p className="text-lg text-gray-700 mb-4 leading-relaxed">
                 {isArabic
-                  ? "شركة طسير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة."
+                  ? "شركة تسيير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة."
                   : "Tasyeer General Contracting is a leading infrastructure support services company based in the UAE. With a history dating back to 2019, we have established ourselves as a key player in various sectors including highways, transportation, railway, energy, waste management, and utilities."}
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -225,7 +225,7 @@ export default function About() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-tasyeer-dark-gray mb-4">
-              {isArabic ? "لماذا اختيار طسير؟" : "Why Choose Tasyeer?"}
+              {isArabic ? "لماذا اختيار تسيير؟" : "Why Choose Tasyeer?"}
             </h2>
             <div className="h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto"></div>
           </motion.div>
