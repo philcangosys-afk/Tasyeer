@@ -238,6 +238,32 @@ const translations = {
   "policies.iso45001": { ar: "ISO 45001", en: "ISO 45001" },
   "policies.icv": { ar: "شهادة ICV", en: "ICV Certificate" },
 
+  // Contact Page
+  "contact.pageTitle": { ar: "اتصل بنا", en: "Contact Us" },
+  "contact.intro": {
+    ar: "تواصل معنا للاستفسار عن خدماتنا أو لطلب عرض أسعار",
+    en: "Get in touch with us to inquire about our services or request a quote",
+  },
+  "contact.location": { ar: "الموقع", en: "Location" },
+  "contact.phone": { ar: "الهاتف", en: "Phone" },
+  "contact.email": { ar: "البريد الإلكتروني", en: "Email" },
+  "contact.officeHours": { ar: "ساعات العمل", en: "Office Hours" },
+  "contact.formName": { ar: "الاسم", en: "Your Name" },
+  "contact.formEmail": { ar: "البريد الإلكتروني", en: "Email Address" },
+  "contact.formPhone": { ar: "رقم الهاتف", en: "Phone Number" },
+  "contact.formSubject": { ar: "الموضوع", en: "Subject" },
+  "contact.formMessage": { ar: "الرسالة", en: "Message" },
+  "contact.formSubmit": { ar: "إرسال", en: "Send" },
+  "contact.followUs": { ar: "تابعنا على وسائل التواصل", en: "Follow Us" },
+  "contact.workingDays": {
+    ar: "الأحد - الخميس: 8:00 صباحاً - 6:00 مساءً",
+    en: "Sunday - Thursday: 8:00 AM - 6:00 PM",
+  },
+  "contact.friday": {
+    ar: "الجمعة والسبت: مغلق",
+    en: "Friday & Saturday: Closed",
+  },
+
   // Footer
   "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
