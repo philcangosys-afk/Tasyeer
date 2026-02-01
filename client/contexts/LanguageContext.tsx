@@ -84,6 +84,133 @@ const translations = {
     en: "Our commitment to delivering top-quality construction expertise and services, ensuring cost-effective and successful projects.",
   },
 
+  // Services Page
+  "services.pageTitle": { ar: "خدماتنا المتخصصة", en: "Our Specialized Services" },
+  "services.intro": {
+    ar: "نقدم مجموعة شاملة من خدمات البنية التحتية والمقاولات التي تلبي احتياجات السوق الإقليمية",
+    en: "We provide a comprehensive range of infrastructure and contracting services tailored to meet regional market needs",
+  },
+  "services.infrastructure": {
+    ar: "أعمال البنية التحتية",
+    en: "Infrastructure Works",
+    desc: {
+      ar: "خدمات شاملة لتطوير وتحسين البنية التحتية الأساسية",
+      en: "Comprehensive services for developing and improving essential infrastructure",
+    },
+  },
+  "services.highways": {
+    ar: "بناء الطرق السريعة",
+    en: "Highways Construction",
+    desc: {
+      ar: "تشييد الطرق السريعة باستخدام أحدث التقنيات والمواد عالية الجودة",
+      en: "Highway construction using latest technologies and high-quality materials",
+    },
+  },
+  "services.road-maintenance": {
+    ar: "صيانة وإصلاح الطرق",
+    en: "Road Maintenance & Repair",
+    desc: {
+      ar: "خدمات صيانة دورية وإصلاح شاملة للطرق الموجودة",
+      en: "Regular maintenance and comprehensive repair services for existing roads",
+    },
+  },
+  "services.internal-roads": {
+    ar: "بناء الطرق الداخلية",
+    en: "Internal Roads Construction",
+    desc: {
+      ar: "تطوير شبكات الطرق الداخلية للمشاريع والمجمعات السكنية والتجارية",
+      en: "Development of internal road networks for projects and residential/commercial complexes",
+    },
+  },
+  "services.asphalt": {
+    ar: "الرصف والتعبيد",
+    en: "Asphalt & Paving",
+    desc: {
+      ar: "خدمات الرصف بالإسفلت والتعبيد بأعلى معايير الجودة",
+      en: "Asphalt and paving services with highest quality standards",
+    },
+  },
+  "services.supply": {
+    ar: "توريد النقل والمواد",
+    en: "Material Supply & Transportation",
+    desc: {
+      ar: "توريد وتنقل المواد البناء والخامات اللازمة للمشاريع",
+      en: "Supply and transportation of construction materials and raw materials",
+    },
+  },
+  "services.landscaping": {
+    ar: "تنسيق المناظر الطبيعية",
+    en: "Landscaping & Gardening",
+    desc: {
+      ar: "تصميم وتنفيذ مشاريع تنسيق المناظر الطبيعية والحدائق",
+      en: "Design and implementation of landscaping and gardening projects",
+    },
+  },
+  "services.excavation": {
+    ar: "الحفر والأعمال الترابية",
+    en: "Excavation & Earthworks",
+    desc: {
+      ar: "أعمال الحفر والحفريات والأعمال الترابية المتخصصة",
+      en: "Specialized excavation and earthwork operations",
+    },
+  },
+  "services.oilgas": {
+    ar: "مقاولات مرافق النفط والغاز",
+    en: "Oil & Gas Field Facilities",
+    desc: {
+      ar: "تشييد وصيانة مرافق النفط والغاز بكفاءة عالية",
+      en: "Construction and maintenance of oil and gas facilities with high efficiency",
+    },
+  },
+  "services.building": {
+    ar: "مقاولات المشاريع السكنية",
+    en: "Building Projects",
+    desc: {
+      ar: "تشييد المشاريع السكنية والتجارية بمعايير عالمية",
+      en: "Construction of residential and commercial projects with international standards",
+    },
+  },
+  "services.building-maintenance": {
+    ar: "صيانة العمارات",
+    en: "Building Maintenance",
+    desc: {
+      ar: "خدمات صيانة شاملة للعمارات والمنشآت",
+      en: "Comprehensive maintenance services for buildings and facilities",
+    },
+  },
+  "services.renovation": {
+    ar: "التجديد والصيانة",
+    en: "Renovation & Maintenance",
+    desc: {
+      ar: "أعمال التجديد والصيانة الدورية للمشاريع القائمة",
+      en: "Renovation and periodic maintenance of existing projects",
+    },
+  },
+  "services.irrigation": {
+    ar: "شبكات الري",
+    en: "Irrigation Networks",
+    desc: {
+      ar: "تصميم وتنفيذ شبكات الري الحديثة والفعالة",
+      en: "Design and implementation of modern and efficient irrigation networks",
+    },
+  },
+  "services.stormwater": {
+    ar: "المياه الجوفية",
+    en: "Storm Water",
+    desc: {
+      ar: "أنظمة صرف المياه الجوفية والعاصفة",
+      en: "Storm water and drainage systems",
+    },
+  },
+  "services.drainage": {
+    ar: "أعمال الصرف الصحي",
+    en: "Drainage Works",
+    desc: {
+      ar: "تشييد شبكات الصرف الصحي والصرف بمعايير عالية",
+      en: "Construction of sanitary and drainage networks with high standards",
+    },
+  },
+
   // Footer
   "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
