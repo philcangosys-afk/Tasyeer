@@ -1,7 +1,8 @@
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, MapPin, Calendar, ArrowRight, ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface Project {
   id: number;
@@ -12,58 +13,77 @@ interface Project {
   descriptionAr: string;
   descriptionEn: string;
   imageUrl: string;
-  category: string;
+  categoryAr: string;
+  categoryEn: string;
+  year: string;
 }
 
 export const FeaturedProjectsSection = () => {
-  const { t, isArabic } = useLanguage();
+  const { isArabic } = useLanguage();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
+  const [direction, setDirection] = useState(1);
 
   const projects: Project[] = [
     {
       id: 1,
-      titleAr: "مشروع تطوير الطريق الخارجي",
+      titleAr: "مشروع رصف طريق السويحان",
       titleEn: "Suwaihan Paving Project",
-      clientAr: "أدنوك",
-      clientEn: "ADNOC",
-      descriptionAr: "مشروع تطوير طريق حديث بطول 50 كم مع أنظمة صرف متقدمة",
-      descriptionEn: "Modern road development project spanning 50km with advanced drainage systems",
-      imageUrl: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=500&fit=crop",
-      category: "Infrastructure",
+      clientAr: "بلدية أبو ظبي",
+      clientEn: "Abu Dhabi Municipality",
+      descriptionAr:
+        "مشروع رصف شامل لطريق السويحان الرئيسي بطول 25 كم مع تحسين البنية التحتية وأنظمة الصرف المتقدمة",
+      descriptionEn:
+        "Comprehensive paving project for Suwaihan main road spanning 25km with infrastructure improvements",
+      imageUrl: "https://images.unsplash.com/photo-1581578731548-c64695c952952?w=1200&h=800&fit=crop",
+      categoryAr: "البنية التحتية",
+      categoryEn: "Infrastructure",
+      year: "2023",
     },
     {
       id: 2,
-      titleAr: "مدينة محمد بن زايد - البنية التحتية",
-      titleEn: "MBZ City Infrastructure",
-      clientAr: "الدار",
-      clientEn: "Aldar",
-      descriptionAr: "تطوير كامل للبنية التحتية لمشروع سكني متعدد الاستخدامات",
-      descriptionEn: "Complete infrastructure development for a mixed-use residential project",
-      imageUrl: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=500&fit=crop",
-      category: "Infrastructure",
+      titleAr: "مدينة محمد بن زايد",
+      titleEn: "Mohammed Bin Zayed City",
+      clientAr: "الدار العقارية",
+      clientEn: "Aldar Properties",
+      descriptionAr:
+        "تطوير كامل للبنية التحتية لمشروع سكني متعدد الاستخدامات يضم آلاف الوحدات السكنية",
+      descriptionEn:
+        "Complete infrastructure development for a mixed-use residential project with thousands of units",
+      imageUrl: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=800&fit=crop",
+      categoryAr: "المشاريع السكنية",
+      categoryEn: "Residential",
+      year: "2022",
     },
     {
       id: 3,
-      titleAr: "تنسيق حدائق منتزه العين",
-      titleEn: "Al Ain Park Landscaping",
+      titleAr: "حديقة العين الوطنية",
+      titleEn: "Al Ain National Park",
       clientAr: "بلدية العين",
       clientEn: "Al Ain Municipality",
-      descriptionAr: "مشروع تنسيق حدائق واسع النطاق مع مساحات خضراء وملاعب رياضية",
-      descriptionEn: "Large-scale landscaping project with green spaces and sports facilities",
-      imageUrl: "https://images.unsplash.com/photo-1582411921591-25c7f4cfaf3e?w=800&h=500&fit=crop",
-      category: "Landscaping",
+      descriptionAr:
+        "مشروع تنسيق حدائق واسع النطاق بمساحة 150 هكتار مع مساحات خضراء ومرافق ترفيهية",
+      descriptionEn:
+        "Large-scale landscaping project covering 150 hectares with green spaces and recreational facilities",
+      imageUrl: "https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=1200&h=800&fit=crop",
+      categoryAr: "تنسيق المناظر الطبيعية",
+      categoryEn: "Landscaping",
+      year: "2021",
     },
     {
       id: 4,
-      titleAr: "نظام الري والصرف لمشروع زراعي",
-      titleEn: "Agricultural Irrigation System",
+      titleAr: "شبكات الري الزراعي",
+      titleEn: "Agricultural Irrigation Network",
       clientAr: "وزارة الزراعة",
       clientEn: "Ministry of Agriculture",
-      descriptionAr: "تطوير نظام ري متطور لمزرعة حديثة بمساحة 500 هكتار",
-      descriptionEn: "Advanced irrigation system development for a 500-hectare modern farm",
-      imageUrl: "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?w=800&h=500&fit=crop",
-      category: "Irrigation",
+      descriptionAr:
+        "تطوير نظام ري متطور موفر للمياه يخدم أكثر من 5000 هكتار من الأراضي الزراعية",
+      descriptionEn:
+        "Advanced water-saving irrigation system development serving over 5000 hectares of agricultural land",
+      imageUrl: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1200&h=800&fit=crop",
+      categoryAr: "أنظمة الري",
+      categoryEn: "Irrigation",
+      year: "2023",
     },
   ];
 
@@ -71,121 +91,268 @@ export const FeaturedProjectsSection = () => {
     if (!autoPlay) return;
 
     const interval = setInterval(() => {
+      setDirection(1);
       setCurrentIndex((prev) => (prev + 1) % projects.length);
-    }, 5000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [autoPlay, projects.length]);
 
   const next = () => {
+    setDirection(1);
     setCurrentIndex((prev) => (prev + 1) % projects.length);
     setAutoPlay(false);
   };
 
   const prev = () => {
+    setDirection(-1);
     setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length);
+    setAutoPlay(false);
+  };
+
+  const goTo = (index: number) => {
+    setDirection(index > currentIndex ? 1 : -1);
+    setCurrentIndex(index);
     setAutoPlay(false);
   };
 
   const project = projects[currentIndex];
 
+  const slideVariants = {
+    enter: (direction: number) => ({
+      x: direction > 0 ? 1000 : -1000,
+      opacity: 0,
+      scale: 0.9,
+    }),
+    center: {
+      zIndex: 1,
+      x: 0,
+      opacity: 1,
+      scale: 1,
+    },
+    exit: (direction: number) => ({
+      zIndex: 0,
+      x: direction < 0 ? 1000 : -1000,
+      opacity: 0,
+      scale: 0.9,
+    }),
+  };
+
   return (
-    <section className="py-20 bg-white">
-      <div className="container-tight">
+    <section className="py-24 bg-gradient-to-b from-white via-gray-50 to-white relative overflow-hidden">
+      {/* Background decorations */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          className="absolute top-20 right-10 w-72 h-72 bg-tasyeer-orange/5 rounded-full blur-3xl"
+          animate={{ scale: [1, 1.2, 1] }}
+          transition={{ duration: 8, repeat: Infinity }}
+        />
+        <motion.div
+          className="absolute bottom-20 left-10 w-72 h-72 bg-tasyeer-maroon/5 rounded-full blur-3xl"
+          animate={{ scale: [1, 1.3, 1] }}
+          transition={{ duration: 10, repeat: Infinity, delay: 2 }}
+        />
+      </div>
+
+      <div className="container-tight relative z-10">
+        {/* Section Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-tasyeer-dark-gray mb-4">
-            {t("projects.featured")}
+          <motion.span
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="inline-block bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange text-white text-sm font-bold px-4 py-2 rounded-full mb-4"
+          >
+            {isArabic ? "أعمالنا المميزة" : "Featured Work"}
+          </motion.span>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-tasyeer-dark-gray mb-6">
+            {isArabic ? "مشاريعنا المتميزة" : "Our Featured Projects"}
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto"></div>
+          <motion.div
+            initial={{ width: 0 }}
+            whileInView={{ width: 96 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="h-1.5 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto rounded-full"
+          />
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Project Image */}
-          <motion.div
-            key={currentIndex}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="relative rounded-lg overflow-hidden shadow-2xl h-96"
-          >
-            <img
-              src={project.imageUrl}
-              alt={isArabic ? project.titleAr : project.titleEn}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <p className="text-sm text-tasyeer-orange mb-2 font-semibold">
-                {project.category}
-              </p>
-              <h3 className="font-cairo text-2xl font-bold">
-                {isArabic ? project.titleAr : project.titleEn}
-              </h3>
-            </div>
-          </motion.div>
-
-          {/* Project Details */}
-          <motion.div
-            key={`details-${currentIndex}`}
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="mb-6">
-              <p className="text-tasyeer-orange font-cairo font-semibold mb-2">
-                {isArabic ? "العميل:" : "Client:"}{" "}
-                {isArabic ? project.clientAr : project.clientEn}
-              </p>
-              <h3 className="text-3xl md:text-4xl font-cairo font-bold text-tasyeer-dark-gray mb-4">
-                {isArabic ? project.titleAr : project.titleEn}
-              </h3>
-              <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-                {isArabic ? project.descriptionAr : project.descriptionEn}
-              </p>
-            </div>
-
-            {/* Navigation */}
-            <div className="flex items-center gap-4">
-              <button
-                onClick={prev}
-                className="p-3 rounded-full bg-gray-100 hover:bg-tasyeer-maroon text-tasyeer-dark-gray hover:text-white transition-colors duration-300"
-              >
-                <ChevronLeft size={24} />
-              </button>
-              <button
-                onClick={next}
-                className="p-3 rounded-full bg-tasyeer-maroon hover:bg-tasyeer-maroon-dark text-white transition-colors duration-300"
-              >
-                <ChevronRight size={24} />
-              </button>
-              <div className="ml-auto flex gap-2">
-                {projects.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => {
-                      setCurrentIndex(index);
-                      setAutoPlay(false);
-                    }}
-                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                      index === currentIndex
-                        ? "bg-tasyeer-maroon w-8"
-                        : "bg-gray-300 hover:bg-gray-400"
-                    }`}
+        {/* Main Carousel */}
+        <div className="relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            {/* Project Image */}
+            <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+              <AnimatePresence initial={false} custom={direction}>
+                <motion.div
+                  key={currentIndex}
+                  custom={direction}
+                  variants={slideVariants}
+                  initial="enter"
+                  animate="center"
+                  exit="exit"
+                  transition={{
+                    x: { type: "spring", stiffness: 300, damping: 30 },
+                    opacity: { duration: 0.3 },
+                    scale: { duration: 0.3 },
+                  }}
+                  className="absolute inset-0"
+                >
+                  <img
+                    src={project.imageUrl}
+                    alt={isArabic ? project.titleAr : project.titleEn}
+                    className="w-full h-full object-cover"
                   />
-                ))}
-              </div>
+                  {/* Gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+                  {/* Category badge */}
+                  <motion.div
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.3 }}
+                    className="absolute top-6 left-6 bg-tasyeer-orange text-white text-sm font-bold px-4 py-2 rounded-full"
+                  >
+                    {isArabic ? project.categoryAr : project.categoryEn}
+                  </motion.div>
+
+                  {/* Bottom info */}
+                  <div className="absolute bottom-0 left-0 right-0 p-8">
+                    <motion.h3
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      className="text-3xl font-bold text-white mb-2"
+                    >
+                      {isArabic ? project.titleAr : project.titleEn}
+                    </motion.h3>
+                    <motion.div
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 0.5 }}
+                      className="flex items-center gap-4 text-white/80 text-sm"
+                    >
+                      <span className="flex items-center gap-1">
+                        <MapPin className="w-4 h-4" />
+                        {isArabic ? project.clientAr : project.clientEn}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Calendar className="w-4 h-4" />
+                        {project.year}
+                      </span>
+                    </motion.div>
+                  </div>
+                </motion.div>
+              </AnimatePresence>
             </div>
 
-            <button className="mt-8 btn-primary">
-              {isArabic ? "عرض جميع المشاريع" : "View All Projects"}
-            </button>
-          </motion.div>
+            {/* Project Details */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={`details-${currentIndex}`}
+                initial={{ opacity: 0, x: isArabic ? -50 : 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: isArabic ? 50 : -50 }}
+                transition={{ duration: 0.5 }}
+                className="space-y-6"
+              >
+                {/* Client */}
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-gradient-to-br from-tasyeer-maroon to-tasyeer-orange rounded-full flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-gray-500">{isArabic ? "العميل" : "Client"}</p>
+                    <p className="text-lg font-bold text-tasyeer-dark-gray">
+                      {isArabic ? project.clientAr : project.clientEn}
+                    </p>
+                  </div>
+                </div>
+
+                {/* Title */}
+                <h3 className="text-3xl md:text-4xl font-bold text-tasyeer-dark-gray">
+                  {isArabic ? project.titleAr : project.titleEn}
+                </h3>
+
+                {/* Description */}
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  {isArabic ? project.descriptionAr : project.descriptionEn}
+                </p>
+
+                {/* Year badge */}
+                <div className="flex items-center gap-2">
+                  <Calendar className="w-5 h-5 text-tasyeer-orange" />
+                  <span className="text-gray-500">{project.year}</span>
+                </div>
+
+                {/* Navigation */}
+                <div className="flex items-center gap-4 pt-6">
+                  <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={prev}
+                    className="w-14 h-14 rounded-full bg-gray-100 hover:bg-tasyeer-maroon text-tasyeer-dark-gray hover:text-white transition-all duration-300 flex items-center justify-center shadow-lg"
+                  >
+                    <ChevronLeft className="w-6 h-6" />
+                  </motion.button>
+                  <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    onClick={next}
+                    className="w-14 h-14 rounded-full bg-tasyeer-maroon hover:bg-tasyeer-orange text-white transition-all duration-300 flex items-center justify-center shadow-lg"
+                  >
+                    <ChevronRight className="w-6 h-6" />
+                  </motion.button>
+
+                  {/* Progress indicators */}
+                  <div className="flex gap-2 ml-auto">
+                    {projects.map((_, index) => (
+                      <button
+                        key={index}
+                        onClick={() => goTo(index)}
+                        className="group"
+                      >
+                        <motion.div
+                          className={`h-2 rounded-full transition-all duration-300 ${
+                            index === currentIndex
+                              ? "bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange w-8"
+                              : "bg-gray-300 w-2 group-hover:bg-gray-400"
+                          }`}
+                        />
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
         </div>
+
+        {/* View All Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="text-center mt-16"
+        >
+          <Link to="/projects">
+            <motion.button
+              whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(152,19,19,0.2)" }}
+              whileTap={{ scale: 0.95 }}
+              className="group bg-tasyeer-dark-gray text-white font-bold py-4 px-10 rounded-full inline-flex items-center gap-3 shadow-lg hover:bg-tasyeer-maroon transition-colors"
+            >
+              {isArabic ? "عرض جميع المشاريع" : "View All Projects"}
+              {isArabic ? (
+                <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              )}
+            </motion.button>
+          </Link>
+        </motion.div>
       </div>
     </section>
   );
