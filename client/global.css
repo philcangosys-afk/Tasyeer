@@ -96,8 +96,53 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+  }
+
+  [dir="rtl"] *:where(h1, h2, h3, h4, h5, h6) {
+    font-family: "Cairo", sans-serif;
+  }
+
+  /* Headings */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold font-cairo leading-tight;
+    font-feature-settings: "ss01" 1;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold font-cairo leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-bold font-cairo;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl font-bold font-cairo;
+  }
+
+  h5 {
+    @apply text-lg font-semibold font-cairo;
+  }
+
+  h6 {
+    @apply text-base font-semibold font-cairo;
+  }
+
+  p {
+    @apply leading-relaxed;
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
@@ -109,5 +154,38 @@
   code {
     overflow-x: auto;
     white-space: pre;
+  }
+}
+
+@layer components {
+  .font-cairo {
+    font-family: "Cairo", sans-serif;
+  }
+
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-tasyeer-maroon hover:bg-tasyeer-maroon-dark text-white font-semibold py-3 px-6 rounded transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-tasyeer-orange hover:bg-tasyeer-orange-dark text-tasyeer-dark-gray font-semibold py-3 px-6 rounded transition-colors duration-200;
+  }
+
+  .btn-outline {
+    @apply border-2 border-tasyeer-maroon text-tasyeer-maroon hover:bg-tasyeer-maroon hover:text-white font-semibold py-3 px-6 rounded transition-colors duration-200;
+  }
+
+  /* Container styles */
+  .container-tight {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Text utilities */
+  .text-gradient {
+    @apply bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange bg-clip-text text-transparent;
   }
 }
