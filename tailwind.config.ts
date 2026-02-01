@@ -19,6 +19,15 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // Tasyeer brand colors
+        tasyeer: {
+          maroon: "#981313",
+          "maroon-dark": "#6d0d0d",
+          orange: "#EBB76A",
+          "orange-dark": "#d4a15a",
+          "dark-gray": "#262626",
+          "dark-gray-light": "#404040",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
