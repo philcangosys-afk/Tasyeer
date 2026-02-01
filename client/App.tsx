@@ -39,17 +39,17 @@ const AppContent = () => (
 );
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <LanguageProvider>
+  <LanguageProvider>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
           <AppContent />
-        </LanguageProvider>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  </LanguageProvider>
 );
 
 createRoot(document.getElementById("root")!).render(<App />);
