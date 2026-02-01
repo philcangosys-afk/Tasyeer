@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { useInView } from "react-intersection-observer";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 interface StatItem {
   key: string;
@@ -11,11 +10,30 @@ interface StatItem {
 
 export const AtAGlanceSection = () => {
   const { t } = useLanguage();
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
   const [counts, setCounts] = useState({ projects: 0, clients: 0, team: 0, years: 0 });
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!inView) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!isVisible) return;
 
     const targets = { projects: 50, clients: 30, team: 120, years: 5 };
     const duration = 2000;
@@ -38,7 +56,7 @@ export const AtAGlanceSection = () => {
     };
 
     updateCounts();
-  }, [inView]);
+  }, [isVisible]);
 
   const stats: StatItem[] = [
     { key: "glance.projects", value: counts.projects, suffix: "+" },
@@ -83,36 +101,3 @@ export const AtAGlanceSection = () => {
     </section>
   );
 };
-
-// Polyfill for useInView from react-intersection-observer
-function useInView(options: any) {
-  const [inView, setInView] = useState(false);
-  const ref = useRefCallback((element: Element | null) => {
-    if (!element) return;
-    
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setInView(true);
-        if (options?.triggerOnce) {
-          observer.unobserve(element);
-        }
-      }
-    }, { threshold: options?.threshold || 0.1 });
-
-    observer.observe(element);
-    return () => observer.unobserve(element);
-  });
-
-  return { ref, inView };
-}
-
-function useRefCallback(callback: (element: Element | null) => void | (() => void)) {
-  const refObject = { current: null as Element | null };
-  const setRefElement = (element: Element | null) => {
-    refObject.current = element;
-    const cleanup = callback(element);
-    return cleanup;
-  };
-
-  return { ref: setRefElement, inView: false };
-}
