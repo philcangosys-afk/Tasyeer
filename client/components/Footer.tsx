@@ -14,7 +14,7 @@ export const Footer = () => {
             <h3 className="font-cairo text-lg font-bold mb-4">{t("footer.about")}</h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               {isArabic
-                ? "طسير هي شركة متخصصة في البنية التحتية والطرق والمناظر الطبيعية، تقدم حلولاً احترافية وعالية الجودة للمشاريع التجارية والحكومية."
+                ? "تسيير هي شركة متخصصة في البنية التحتية والطرق والمناظر الطبيعية، تقدم حلولاً احترافية وعالية الجودة للمشاريع التجارية والحكومية."
                 : "Tasyeer is a specialized infrastructure and construction company providing professional and high-quality solutions for commercial and government projects."}
             </p>
           </div>
