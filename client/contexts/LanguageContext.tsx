@@ -211,6 +211,18 @@ const translations = {
     },
   },
 
+  // Projects Page
+  "projects.pageTitle": { ar: "مشاريعنا المتميزة", en: "Our Featured Projects" },
+  "projects.intro": {
+    ar: "استعرض مجموعة مختارة من مشاريعنا الناجحة والمكتملة بنجاح",
+    en: "Explore a selection of our successful and completed projects",
+  },
+  "projects.filterAll": { ar: "جميع المشاريع", en: "All Projects" },
+  "projects.filterRoads": { ar: "الطرق والبنية التحتية", en: "Roads & Infrastructure" },
+  "projects.filterBuilding": { ar: "المشاريع السكنية", en: "Building Projects" },
+  "projects.filterLandscape": { ar: "تنسيق المناظر الطبيعية", en: "Landscaping" },
+  "projects.filterWater": { ar: "الأنظمة المائية", en: "Water Systems" },
+
   // Footer
   "footer.about": { ar: "عن طسير", en: "About Tasyeer" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
