@@ -271,13 +271,9 @@ export default function Policies() {
                   <h3 className="text-lg font-bold text-tasyeer-dark-gray mb-2">
                     {cert.titleEn}
                   </h3>
-                  <p className="text-gray-600 text-xs leading-relaxed mb-3">
+                  <p className="text-gray-600 text-xs leading-relaxed">
                     {isArabic ? cert.descAr : cert.descEn}
                   </p>
-                  <button className="flex items-center justify-center gap-2 mx-auto text-tasyeer-maroon font-semibold hover:text-tasyeer-orange transition-colors text-sm">
-                    <Download className="w-3 h-3" />
-                    {isArabic ? "تحميل" : "Download"}
-                  </button>
                 </div>
               </motion.div>
             ))}
