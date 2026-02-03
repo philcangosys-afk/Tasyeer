@@ -122,6 +122,7 @@ export default function Policies() {
         "شهادة نظام إدارة الجودة الدولية (رقم الشهادة: 30092319813) تغطي جميع أنواع مشاريع البناء والتشييد والعقود الساحلية والصرف الصحي والطرق الرئيسية والصيانة. تؤكد التزامنا بأعلى معايير الجودة العالمية في جميع عملياتنا.",
       descEn:
         "Quality Management System Certificate (No: 30092319813) covering all building projects, marine contracting, sewerage networks, and roads. Demonstrates our commitment to highest quality standards across all operations.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F12d11f1dbabc454b815fc84c22c25dff?format=webp&width=400",
       icon: "🏅",
     },
     {
@@ -131,6 +132,7 @@ export default function Policies() {
         "شهادة نظام الإدارة البيئية (رقم الشهادة: 30092319811) التي تؤكد التزامنا بالممارسات البيئية المسؤولة والمستدامة في جميع مشاريعنا والعمليات البيئية الصارمة.",
       descEn:
         "Environmental Management System Certificate (No: 30092319811) confirming our commitment to responsible environmental practices and strict ecological standards in all projects.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F0764ac21776d48cb9ad2c1f140853daa?format=webp&width=400",
       icon: "🌿",
     },
     {
@@ -140,6 +142,7 @@ export default function Policies() {
         "شهادة نظام إدارة الصحة والسلامة المهنية (رقم الشهادة: 30092301812) التي تعكس التزامنا الراسخ بسلامة وصحة جميع الموظفين والعاملين في جميع أنشطتنا.",
       descEn:
         "Occupational Health & Safety Management Certificate (No: 30092301812) reflecting our strong commitment to employee safety and health across all operations.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fdfa351f744204dae8b626116a835c210?format=webp&width=400",
       icon: "🛡️",
     },
     {
@@ -149,6 +152,7 @@ export default function Policies() {
         "شهادة المحتوى الإماراتي (رقم الشهادة: 1311220 - الترخيص: CM-2748800) التي تؤكد التزامنا الفعّال بدعم الاقتصاد الوطني والكوادر الإماراتية بنسبة 50% من قيمة المشاريع.",
       descEn:
         "In-Country Value Certificate (No: 1311220 - License: CM-2748800) demonstrating our 50% commitment to supporting UAE national economy and local workforce development.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fcabc871a70f84cfc879715538d9f062e?format=webp&width=400",
       icon: "🇦🇪",
     },
   ];
