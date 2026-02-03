@@ -65,7 +65,7 @@ export const FeaturedProjectsSection = () => {
         "مشروع تنسيق حدائق واسع النطاق بمساحة 150 هكتار مع مساحات خضراء ومرافق ترفيهية",
       descriptionEn:
         "Large-scale landscaping project covering 150 hectares with green spaces and recreational facilities",
-      imageUrl: "https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=1200&h=800&fit=crop",
+      imageUrl: "https://images.pexels.com/photos/33917299/pexels-photo-33917299.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "تنسيق المناظر الطبيعية",
       categoryEn: "Landscaping",
       year: "2021",
