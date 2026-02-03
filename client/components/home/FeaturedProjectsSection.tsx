@@ -50,7 +50,7 @@ export const FeaturedProjectsSection = () => {
         "تطوير كامل للبنية التحتية لمشروع سكني متعدد الاستخدامات يضم آلاف الوحدات السكنية",
       descriptionEn:
         "Complete infrastructure development for a mixed-use residential project with thousands of units",
-      imageUrl: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=800&fit=crop",
+      imageUrl: "https://images.pexels.com/photos/32403578/pexels-photo-32403578.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "المشاريع السكنية",
       categoryEn: "Residential",
       year: "2022",
