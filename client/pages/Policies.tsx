@@ -116,39 +116,39 @@ export default function Policies() {
 
   const certificates = [
     {
-      titleAr: "ISO 9001",
-      titleEn: "ISO 9001",
+      titleAr: "ISO 9001:2015",
+      titleEn: "ISO 9001:2015",
       descAr:
-        "شهادة نظام إدارة الجودة الدولية تؤكد التزامنا بمعايير الجودة العالمية في جميع عملياتنا.",
+        "شهادة نظام إدارة الجودة الدولية (رقم الشهادة: 30092319813) تغطي جميع أنواع مشاريع البناء والتشييد والعقود الساحلية والصرف الصحي والطرق الرئيسية والصيانة. تؤكد التزامنا بأعلى معايير الجودة العالمية في جميع عملياتنا.",
       descEn:
-        "International Quality Management System certifying our commitment to highest standards.",
+        "Quality Management System Certificate (No: 30092319813) covering all building projects, marine contracting, sewerage networks, and roads. Demonstrates our commitment to highest quality standards across all operations.",
       icon: "🏅",
     },
     {
-      titleAr: "ISO 14001",
-      titleEn: "ISO 14001",
+      titleAr: "ISO 14001:2015",
+      titleEn: "ISO 14001:2015",
       descAr:
-        "شهادة نظام الإدارة البيئية التي تؤكد التزامنا بالممارسات البيئية المسؤولة والمستدامة.",
+        "شهادة نظام الإدارة البيئية (رقم الشهادة: 30092319811) التي تؤكد التزامنا بالممارسات البيئية المسؤولة والمستدامة في جميع مشاريعنا والعمليات البيئية الصارمة.",
       descEn:
-        "Environmental Management System certification confirming our environmental responsibility.",
+        "Environmental Management System Certificate (No: 30092319811) confirming our commitment to responsible environmental practices and strict ecological standards in all projects.",
       icon: "🌿",
     },
     {
-      titleAr: "ISO 45001",
-      titleEn: "ISO 45001",
+      titleAr: "ISO 45001:2018",
+      titleEn: "ISO 45001:2018",
       descAr:
-        "شهادة نظام إدارة الصحة والسلامة المهنية تعكس التزامنا بسلامة الموظفين والعاملين.",
+        "شهادة نظام إدارة الصحة والسلامة المهنية (رقم الشهادة: 30092301812) التي تعكس التزامنا الراسخ بسلامة وصحة جميع الموظفين والعاملين في جميع أنشطتنا.",
       descEn:
-        "Occupational Health & Safety Management certification reflecting our commitment to employee safety.",
+        "Occupational Health & Safety Management Certificate (No: 30092301812) reflecting our strong commitment to employee safety and health across all operations.",
       icon: "🛡️",
     },
     {
       titleAr: "شهادة ICV 50%",
       titleEn: "ICV 50% Certificate",
       descAr:
-        "شهادة الإماراتية المحتوى التي تؤكد التزامنا بدعم الاقتصاد الوطني والكوادر الإماراتية.",
+        "شهادة المحتوى الإماراتي (رقم الشهادة: 1311220 - الترخيص: CM-2748800) التي تؤكد التزامنا الفعّال بدعم الاقتصاد الوطني والكوادر الإماراتية بنسبة 50% من قيمة المشاريع.",
       descEn:
-        "UAE Emiratization certificate demonstrating our support for local economy and workforce.",
+        "In-Country Value Certificate (No: 1311220 - License: CM-2748800) demonstrating our 50% commitment to supporting UAE national economy and local workforce development.",
       icon: "🇦🇪",
     },
   ];
