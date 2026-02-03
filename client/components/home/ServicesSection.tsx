@@ -30,7 +30,7 @@ export const ServicesSection = () => {
       descriptionEn:
         "Comprehensive infrastructure and highway solutions with highest quality and safety standards",
       color: "from-tasyeer-maroon to-red-700",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop",
+      image: "https://images.pexels.com/photos/33125632/pexels-photo-33125632.jpeg",
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ export const ServicesSection = () => {
       descriptionEn:
         "Professional and modern landscaping design with advanced irrigation systems",
       color: "from-emerald-600 to-green-700",
-      image: "https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=400&h=300&fit=crop",
+      image: "https://images.pexels.com/photos/32707054/pexels-photo-32707054.jpeg",
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ export const ServicesSection = () => {
       descriptionEn:
         "Comprehensive maintenance and renovation services for residential and commercial projects",
       color: "from-tasyeer-orange to-amber-600",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      image: "https://images.pexels.com/photos/8092/pexels-photo.jpg",
     },
     {
       id: 4,
@@ -66,7 +66,7 @@ export const ServicesSection = () => {
       descriptionEn:
         "Advanced irrigation and drainage systems design with efficiency and reliability",
       color: "from-blue-600 to-cyan-600",
-      image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=300&fit=crop",
+      image: "https://images.pexels.com/photos/35090073/pexels-photo-35090073.jpeg",
     },
   ];
 
