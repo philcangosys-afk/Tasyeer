@@ -248,7 +248,7 @@ export default function Policies() {
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -260,22 +260,22 @@ export default function Policies() {
                 variants={itemVariants}
                 className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden border-t-4 border-tasyeer-orange"
               >
-                <div className="relative bg-gray-100 p-4">
+                <div className="relative bg-gray-100 p-2">
                   <img
                     src={cert.image}
                     alt={isArabic ? cert.titleAr : cert.titleEn}
                     className="w-full h-auto object-cover rounded"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-tasyeer-dark-gray mb-3">
+                <div className="p-4">
+                  <h3 className="text-lg font-bold text-tasyeer-dark-gray mb-2">
                     {cert.titleEn}
                   </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                  <p className="text-gray-600 text-xs leading-relaxed mb-3">
                     {isArabic ? cert.descAr : cert.descEn}
                   </p>
-                  <button className="flex items-center justify-center gap-2 mx-auto text-tasyeer-maroon font-semibold hover:text-tasyeer-orange transition-colors">
-                    <Download className="w-4 h-4" />
+                  <button className="flex items-center justify-center gap-2 mx-auto text-tasyeer-maroon font-semibold hover:text-tasyeer-orange transition-colors text-sm">
+                    <Download className="w-3 h-3" />
                     {isArabic ? "تحميل" : "Download"}
                   </button>
                 </div>
