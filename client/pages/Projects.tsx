@@ -23,7 +23,7 @@ export default function Projects() {
         "مشروع رصف شامل لطريق السويحان الرئيسي بطول 25 كم مع أعمال صيانة وتحسين البنية التحتية",
       descEn:
         "Comprehensive paving project for main Suwaihan road spanning 25 km with infrastructure maintenance",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695c952952?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=600&h=400&fit=crop",
       status: "Completed",
     },
     {
@@ -41,7 +41,7 @@ export default function Projects() {
         "مشروع متكامل لتطوير مدينة سكنية حديثة يضم آلاف الوحدات السكنية والمرافق التجارية",
       descEn:
         "Integrated development project for a modern residential city with thousands of residential units",
-      image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/32403578/pexels-photo-32403578.jpeg?w=600&h=400&fit=crop",
       status: "Ongoing",
     },
     {
@@ -59,7 +59,7 @@ export default function Projects() {
         "مشروع تنسيق مناظر طبيعية متقدم يغطي 150 هكتار من الحدائق والمساحات الخضراء",
       descEn:
         "Advanced landscaping project covering 150 hectares of gardens and green spaces",
-      image: "https://images.unsplash.com/photo-1469022563149-aa64dbd37dae?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/33917299/pexels-photo-33917299.jpeg?w=600&h=400&fit=crop",
       status: "Completed",
     },
     {
@@ -77,7 +77,7 @@ export default function Projects() {
         "إنشاء شبكة ري حديثة موفرة للمياه تخدم أكثر من 5000 هكتار من الأراضي الزراعية",
       descEn:
         "Construction of modern water-saving irrigation network serving over 5000 hectares",
-      image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?w=600&h=400&fit=crop",
       status: "Completed",
     },
     {
@@ -95,7 +95,7 @@ export default function Projects() {
         "تطوير وتوسيع طريق سريع رئيسي بطول 35 كم مع مسارات إضافية وتحسينات أمنية",
       descEn:
         "Development and expansion of main highway spanning 35 km with additional lanes and safety improvements",
-      image: "https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=600&h=400&fit=crop",
       status: "Ongoing",
     },
     {
@@ -113,7 +113,7 @@ export default function Projects() {
         "بناء مجمع تجاري حديث يحتوي على مئات المتاجر والمكاتب والمطاعم والمرافق الترفيهية",
       descEn:
         "Construction of modern commercial complex containing hundreds of shops, offices, restaurants",
-      image: "https://images.unsplash.com/photo-1494145904049-0dca7b13eef4?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/13355515/pexels-photo-13355515.jpeg?w=600&h=400&fit=crop",
       status: "Ongoing",
     },
     {
@@ -131,7 +131,7 @@ export default function Projects() {
         "تطوير حديقة مائية متكاملة بمساحة 80 هكتار مع ميزات ترفيهية وبحيرات صناعية",
       descEn:
         "Development of integrated water park spanning 80 hectares with recreational features and lakes",
-      image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/31166929/pexels-photo-31166929.jpeg?w=600&h=400&fit=crop",
       status: "Completed",
     },
     {
@@ -149,7 +149,7 @@ export default function Projects() {
         "إنشاء شبكة صرف صحي متطورة تخدم مدينة كاملة مع معالجة متقدمة للمياه العادمة",
       descEn:
         "Construction of advanced sewage network serving an entire city with wastewater treatment",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/5526877/pexels-photo-5526877.jpeg?w=600&h=400&fit=crop",
       status: "Completed",
     },
     {
@@ -167,7 +167,7 @@ export default function Projects() {
         "بناء طريق حلقي جديد يربط أجزاء المدينة بطول 42 كم مع جسور ومقاطع علوية",
       descEn:
         "Construction of new ring road connecting city sections spanning 42 km with bridges and overpasses",
-      image: "https://images.unsplash.com/photo-1542095503-f4d5cc77d752?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=600&h=400&fit=crop",
       status: "Ongoing",
     },
   ];
