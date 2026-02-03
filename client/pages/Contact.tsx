@@ -277,6 +277,36 @@ export default function Contact() {
                 />
               </div>
 
+              {/* Contact Details Box */}
+              <div className="bg-tasyeer-dark-gray rounded-lg p-6 text-white">
+                <h3 className="text-xl font-bold mb-6">
+                  {isArabic ? "معلومات الاتصال" : "Contact Information"}
+                </h3>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-4">
+                    <MapPin className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
+                    <div>
+                      <p className="text-sm text-gray-300">
+                        {isArabic ? "منطقة الكاد 1 - أبو ظبي" : "ICAD1 - Abu Dhabi"}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Phone className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
+                    <div>
+                      <p className="text-sm text-gray-300">+971 2 583 0412</p>
+                      <p className="text-sm text-gray-300">+971 58 638 6526</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <Mail className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
+                    <div>
+                      <p className="text-sm text-gray-300">info@tasyeer.ae</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* Additional Info */}
               <div className="bg-gradient-to-br from-tasyeer-maroon to-tasyeer-orange rounded-lg p-8 text-white">
                 <h3 className="text-2xl font-bold mb-6">
