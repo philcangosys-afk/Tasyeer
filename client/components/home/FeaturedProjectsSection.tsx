@@ -35,7 +35,7 @@ export const FeaturedProjectsSection = () => {
         "مشروع رصف شامل لطريق السويحان الرئيسي بطول 25 كم مع تحسين البنية التحتية وأنظمة الصرف المتقدمة",
       descriptionEn:
         "Comprehensive paving project for Suwaihan main road spanning 25km with infrastructure improvements",
-      imageUrl: "https://images.unsplash.com/photo-1581578731548-c64695c952952?w=1200&h=800&fit=crop",
+      imageUrl: "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "البنية التحتية",
       categoryEn: "Infrastructure",
       year: "2023",
