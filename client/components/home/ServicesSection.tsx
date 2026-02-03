@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Building2, Leaf, Wrench, Droplet, ArrowRight, ArrowLeft } from "lucide-react";
+import {
+  Building2,
+  Leaf,
+  Wrench,
+  Droplet,
+  ArrowRight,
+  ArrowLeft,
+} from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -30,7 +37,8 @@ export const ServicesSection = () => {
       descriptionEn:
         "Comprehensive infrastructure and highway solutions with highest quality and safety standards",
       color: "from-tasyeer-maroon to-red-700",
-      image: "https://images.pexels.com/photos/33125632/pexels-photo-33125632.jpeg",
+      image:
+        "https://images.pexels.com/photos/33125632/pexels-photo-33125632.jpeg",
     },
     {
       id: 2,
@@ -42,7 +50,8 @@ export const ServicesSection = () => {
       descriptionEn:
         "Professional and modern landscaping design with advanced irrigation systems",
       color: "from-emerald-600 to-green-700",
-      image: "https://images.pexels.com/photos/32707054/pexels-photo-32707054.jpeg",
+      image:
+        "https://images.pexels.com/photos/32707054/pexels-photo-32707054.jpeg",
     },
     {
       id: 3,
@@ -66,7 +75,8 @@ export const ServicesSection = () => {
       descriptionEn:
         "Advanced irrigation and drainage systems design with efficiency and reliability",
       color: "from-blue-600 to-cyan-600",
-      image: "https://images.pexels.com/photos/35090073/pexels-photo-35090073.jpeg",
+      image:
+        "https://images.pexels.com/photos/35090073/pexels-photo-35090073.jpeg",
     },
   ];
 
@@ -107,10 +117,23 @@ export const ServicesSection = () => {
         />
 
         {/* Grid pattern */}
-        <svg className="absolute inset-0 w-full h-full opacity-5" viewBox="0 0 100 100">
+        <svg
+          className="absolute inset-0 w-full h-full opacity-5"
+          viewBox="0 0 100 100"
+        >
           <defs>
-            <pattern id="serviceGrid" width="10" height="10" patternUnits="userSpaceOnUse">
-              <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" strokeWidth="0.2" />
+            <pattern
+              id="serviceGrid"
+              width="10"
+              height="10"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 10 0 L 0 0 0 10"
+                fill="none"
+                stroke="white"
+                strokeWidth="0.2"
+              />
             </pattern>
           </defs>
           <rect width="100" height="100" fill="url(#serviceGrid)" />
@@ -181,10 +204,14 @@ export const ServicesSection = () => {
                     src={service.image}
                     alt={isArabic ? service.titleAr : service.titleEn}
                     className="w-full h-full object-cover opacity-20 group-hover:opacity-30 transition-opacity duration-500"
-                    animate={hoveredId === service.id ? { scale: 1.1 } : { scale: 1 }}
+                    animate={
+                      hoveredId === service.id ? { scale: 1.1 } : { scale: 1 }
+                    }
                     transition={{ duration: 0.5 }}
                   />
-                  <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-20 group-hover:opacity-30 transition-opacity`} />
+                  <div
+                    className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-20 group-hover:opacity-30 transition-opacity`}
+                  />
                 </div>
 
                 {/* Content */}
@@ -233,7 +260,11 @@ export const ServicesSection = () => {
                 {/* Hover border effect */}
                 <motion.div
                   className="absolute inset-0 border-2 border-tasyeer-orange/0 rounded-2xl pointer-events-none"
-                  animate={hoveredId === service.id ? { borderColor: "rgba(235,183,106,0.3)" } : {}}
+                  animate={
+                    hoveredId === service.id
+                      ? { borderColor: "rgba(235,183,106,0.3)" }
+                      : {}
+                  }
                   transition={{ duration: 0.3 }}
                 />
               </motion.div>
@@ -250,7 +281,10 @@ export const ServicesSection = () => {
         >
           <Link to="/services">
             <motion.button
-              whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(235,183,106,0.3)" }}
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 20px 40px rgba(235,183,106,0.3)",
+              }}
               whileTap={{ scale: 0.95 }}
               className="group bg-gradient-to-r from-tasyeer-orange to-yellow-500 text-tasyeer-dark-gray font-bold py-4 px-10 rounded-full inline-flex items-center gap-3 shadow-lg"
             >

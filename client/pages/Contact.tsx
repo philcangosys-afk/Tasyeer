@@ -1,6 +1,15 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Clock, Send, Facebook, Linkedin, Twitter } from "lucide-react";
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Clock,
+  Send,
+  Facebook,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -20,7 +29,8 @@ export default function Contact() {
       titleAr: "الموقع",
       titleEn: "Location",
       contentAr: "صندوق البريد 5691، بناء ICAD1 المتحد، أبو ظبي، الإمارات",
-      contentEn: "P.O. Box No. 5691, ICAD1 Allied office building, Abu Dhabi, UAE",
+      contentEn:
+        "P.O. Box No. 5691, ICAD1 Allied office building, Abu Dhabi, UAE",
       link: "#",
     },
     {
@@ -50,7 +60,7 @@ export default function Contact() {
   ];
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -162,7 +172,9 @@ export default function Contact() {
                 <div className="bg-green-50 border-2 border-green-500 rounded-lg p-8 text-center">
                   <div className="text-4xl mb-4">✓</div>
                   <h3 className="text-2xl font-bold text-green-700 mb-2">
-                    {isArabic ? "تم الإرسال بنجاح" : "Message Sent Successfully"}
+                    {isArabic
+                      ? "تم الإرسال بنجاح"
+                      : "Message Sent Successfully"}
                   </h3>
                   <p className="text-green-600">
                     {isArabic
@@ -197,7 +209,9 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder={isArabic ? "أدخل بريدك الإلكتروني" : "Enter your email"}
+                      placeholder={
+                        isArabic ? "أدخل بريدك الإلكتروني" : "Enter your email"
+                      }
                       className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-tasyeer-maroon transition-colors"
                     />
                   </div>
@@ -211,7 +225,9 @@ export default function Contact() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder={isArabic ? "أدخل رقم هاتفك" : "Enter your phone number"}
+                      placeholder={
+                        isArabic ? "أدخل رقم هاتفك" : "Enter your phone number"
+                      }
                       className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-tasyeer-maroon transition-colors"
                     />
                   </div>
@@ -241,7 +257,9 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       rows={5}
-                      placeholder={isArabic ? "أدخل رسالتك" : "Enter your message"}
+                      placeholder={
+                        isArabic ? "أدخل رسالتك" : "Enter your message"
+                      }
                       className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-tasyeer-maroon transition-colors resize-none"
                     ></textarea>
                   </div>
@@ -287,7 +305,9 @@ export default function Contact() {
                     <MapPin className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-300">
-                        {isArabic ? "منطقة الكاد 1 - أبو ظبي" : "ICAD1 - Abu Dhabi"}
+                        {isArabic
+                          ? "منطقة الكاد 1 - أبو ظبي"
+                          : "ICAD1 - Abu Dhabi"}
                       </p>
                     </div>
                   </div>
@@ -314,7 +334,9 @@ export default function Contact() {
                 </h3>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-4">
-                    <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                    <span className="text-tasyeer-orange text-2xl font-bold">
+                      ✓
+                    </span>
                     <div>
                       <p className="font-semibold">
                         {isArabic ? "الرد السريع" : "Quick Response"}
@@ -327,7 +349,9 @@ export default function Contact() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                    <span className="text-tasyeer-orange text-2xl font-bold">
+                      ✓
+                    </span>
                     <div>
                       <p className="font-semibold">
                         {isArabic ? "عروض مخصصة" : "Customized Quotes"}
@@ -340,7 +364,9 @@ export default function Contact() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                    <span className="text-tasyeer-orange text-2xl font-bold">
+                      ✓
+                    </span>
                     <div>
                       <p className="font-semibold">
                         {isArabic ? "استشارة مجانية" : "Free Consultation"}
@@ -358,7 +384,9 @@ export default function Contact() {
               {/* Social Media */}
               <div>
                 <h3 className="text-xl font-bold text-tasyeer-dark-gray mb-4">
-                  {isArabic ? "تابعنا على وسائل التواصل" : "Follow Us on Social Media"}
+                  {isArabic
+                    ? "تابعنا على وسائل التواصل"
+                    : "Follow Us on Social Media"}
                 </h3>
                 <div className="flex gap-4">
                   <a

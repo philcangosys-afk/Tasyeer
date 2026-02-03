@@ -1,7 +1,14 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState, useEffect } from "react";
-import { ChevronLeft, ChevronRight, MapPin, Calendar, ArrowRight, ArrowLeft } from "lucide-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  MapPin,
+  Calendar,
+  ArrowRight,
+  ArrowLeft,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface Project {
@@ -35,7 +42,8 @@ export const FeaturedProjectsSection = () => {
         "مشروع رصف شامل لطريق السويحان الرئيسي بطول 25 كم مع تحسين البنية التحتية وأنظمة الصرف المتقدمة",
       descriptionEn:
         "Comprehensive paving project for Suwaihan main road spanning 25km with infrastructure improvements",
-      imageUrl: "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=1200&h=800&fit=crop",
+      imageUrl:
+        "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "البنية التحتية",
       categoryEn: "Infrastructure",
       year: "2023",
@@ -50,7 +58,8 @@ export const FeaturedProjectsSection = () => {
         "تطوير كامل للبنية التحتية لمشروع سكني متعدد الاستخدامات يضم آلاف الوحدات السكنية",
       descriptionEn:
         "Complete infrastructure development for a mixed-use residential project with thousands of units",
-      imageUrl: "https://images.pexels.com/photos/32403578/pexels-photo-32403578.jpeg?w=1200&h=800&fit=crop",
+      imageUrl:
+        "https://images.pexels.com/photos/32403578/pexels-photo-32403578.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "المشاريع السكنية",
       categoryEn: "Residential",
       year: "2022",
@@ -65,7 +74,8 @@ export const FeaturedProjectsSection = () => {
         "مشروع تنسيق حدائق واسع النطاق بمساحة 150 هكتار مع مساحات خضراء ومرافق ترفيهية",
       descriptionEn:
         "Large-scale landscaping project covering 150 hectares with green spaces and recreational facilities",
-      imageUrl: "https://images.pexels.com/photos/33917299/pexels-photo-33917299.jpeg?w=1200&h=800&fit=crop",
+      imageUrl:
+        "https://images.pexels.com/photos/33917299/pexels-photo-33917299.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "تنسيق المناظر الطبيعية",
       categoryEn: "Landscaping",
       year: "2021",
@@ -80,7 +90,8 @@ export const FeaturedProjectsSection = () => {
         "تطوير نظام ري متطور موفر للمياه يخدم أكثر من 5000 هكتار من الأراضي الزراعية",
       descriptionEn:
         "Advanced water-saving irrigation system development serving over 5000 hectares of agricultural land",
-      imageUrl: "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?w=1200&h=800&fit=crop",
+      imageUrl:
+        "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "أنظمة الري",
       categoryEn: "Irrigation",
       year: "2023",
@@ -265,7 +276,9 @@ export const FeaturedProjectsSection = () => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500">{isArabic ? "العميل" : "Client"}</p>
+                    <p className="text-sm text-gray-500">
+                      {isArabic ? "العميل" : "Client"}
+                    </p>
                     <p className="text-lg font-bold text-tasyeer-dark-gray">
                       {isArabic ? project.clientAr : project.clientEn}
                     </p>
@@ -340,7 +353,10 @@ export const FeaturedProjectsSection = () => {
         >
           <Link to="/projects">
             <motion.button
-              whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(152,19,19,0.2)" }}
+              whileHover={{
+                scale: 1.05,
+                boxShadow: "0 20px 40px rgba(152,19,19,0.2)",
+              }}
               whileTap={{ scale: 0.95 }}
               className="group bg-tasyeer-dark-gray text-white font-bold py-4 px-10 rounded-full inline-flex items-center gap-3 shadow-lg hover:bg-tasyeer-maroon transition-colors"
             >
