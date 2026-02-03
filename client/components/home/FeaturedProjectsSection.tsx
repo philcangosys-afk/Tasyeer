@@ -80,7 +80,7 @@ export const FeaturedProjectsSection = () => {
         "تطوير نظام ري متطور موفر للمياه يخدم أكثر من 5000 هكتار من الأراضي الزراعية",
       descriptionEn:
         "Advanced water-saving irrigation system development serving over 5000 hectares of agricultural land",
-      imageUrl: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1200&h=800&fit=crop",
+      imageUrl: "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?w=1200&h=800&fit=crop",
       categoryAr: "أنظمة الري",
       categoryEn: "Irrigation",
       year: "2023",
