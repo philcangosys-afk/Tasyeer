@@ -23,7 +23,7 @@ export const Header = () => {
           {/* Logo */}
           <Link
             to="/"
-            className="flex items-center gap-2 font-cairo font-bold text-2xl"
+            className="flex items-center gap-2 font-cairo font-bold text-2xl force-ltr"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F695b86d14e6a4bdeab195add02aaf3df?format=webp&width=100&height=100"
