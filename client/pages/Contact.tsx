@@ -306,8 +306,8 @@ export default function Contact() {
                     <div>
                       <p className="text-sm text-gray-300">
                         {isArabic
-                          ? "منطقة الكاد 1 - أبو ظبي"
-                          : "ICAD1 - Abu Dhabi"}
+                          ? "أبو ظبي - ايكاد 1 - شارع الصقلاوي"
+                          : "Abu Dhabi - ICAD1 - Suqal Street"}
                       </p>
                     </div>
                   </div>
