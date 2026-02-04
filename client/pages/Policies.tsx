@@ -185,9 +185,19 @@ export default function Policies() {
     policies: typeof hsePolicies,
   ) => (
     <div className="space-y-4">
-      <div className="flex items-center gap-3 mb-6">
+      <div
+        className={`flex items-center gap-3 mb-6 ${
+          isArabic ? "flex-row-reverse justify-end" : ""
+        }`}
+      >
         {icon}
-        <h2 className="text-3xl font-bold text-tasyeer-dark-gray">{title}</h2>
+        <h2
+          className={`text-3xl font-bold text-tasyeer-dark-gray ${
+            isArabic ? "text-right" : "text-left"
+          }`}
+        >
+          {title}
+        </h2>
       </div>
       {policies.map((policy, index) => (
         <motion.div
@@ -195,12 +205,18 @@ export default function Policies() {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: index * 0.1 }}
-          className="bg-white p-6 rounded-lg border-l-4 border-tasyeer-orange hover:shadow-lg transition-shadow"
+          className={`bg-white p-6 rounded-lg border-tasyeer-orange hover:shadow-lg transition-shadow ${
+            isArabic ? "border-r-4 border-l-0" : "border-l-4 border-r-0"
+          }`}
         >
-          <h3 className="text-xl font-bold text-tasyeer-dark-gray mb-3">
+          <h3
+            className={`text-xl font-bold text-tasyeer-dark-gray mb-3 ${
+              isArabic ? "text-right" : "text-left"
+            }`}
+          >
             {isArabic ? policy.titleAr : policy.titleEn}
           </h3>
-          <p className="text-gray-700 leading-relaxed">
+          <p className={`text-gray-700 leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
             {isArabic ? policy.contentAr : policy.contentEn}
           </p>
         </motion.div>
@@ -270,10 +286,14 @@ export default function Policies() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-tasyeer-dark-gray mb-2">
-                    {cert.titleEn}
+                  <h3
+                    className={`text-lg font-bold text-tasyeer-dark-gray mb-2 ${
+                      isArabic ? "text-right" : "text-left"
+                    }`}
+                  >
+                    {isArabic ? cert.titleAr : cert.titleEn}
                   </h3>
-                  <p className="text-gray-600 text-xs leading-relaxed">
+                  <p className={`text-gray-600 text-xs leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
                     {isArabic ? cert.descAr : cert.descEn}
                   </p>
                 </div>
@@ -338,7 +358,11 @@ export default function Policies() {
                 ? "تحميل وثائق السياسات الكاملة والشهادات من هنا"
                 : "Download our complete policy documents and certificates"}
             </p>
-            <button className="bg-white text-tasyeer-maroon font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors flex items-center justify-center gap-2 mx-auto">
+            <button
+              className={`bg-white text-tasyeer-maroon font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors flex items-center justify-center gap-2 mx-auto ${
+                isArabic ? "flex-row-reverse" : ""
+              }`}
+            >
               <Download className="w-5 h-5" />
               {isArabic ? "تحميل جميع الشهادات" : "Download All Certificates"}
             </button>
