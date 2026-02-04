@@ -405,7 +405,9 @@ export default function Contact() {
                       <span className="font-semibold">
                         {isArabic ? "الهاتف:" : "Phone:"}
                       </span>{" "}
-                      +971 2 583 0412 / +971 58 638 6526
+                      <span className="force-ltr">
+                        +971 2 583 0412 / +971 58 638 6526
+                      </span>
                     </p>
                     <p>
                       <span className="font-semibold">
