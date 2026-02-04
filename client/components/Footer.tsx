@@ -138,7 +138,7 @@ export const Footer = () => {
                   size={20}
                   className="text-tasyeer-orange flex-shrink-0 mt-0.5"
                 />
-                <div className="flex flex-col">
+                <div className="flex flex-col force-ltr">
                   <span className="text-gray-300">head@tasyeercompany.com</span>
                   <span className="text-gray-300">info@tasyeercompany.com</span>
                 </div>
