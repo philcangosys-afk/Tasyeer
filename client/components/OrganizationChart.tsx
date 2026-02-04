@@ -311,14 +311,18 @@ export const OrganizationChart = () => {
   ];
 
   const getPositionById = (id: string) => {
-    return positions.find((pos) => pos.id === id)!;
+    return positions.find((pos) => pos.id === id);
   };
 
-  const renderBox = (id: string, widthClass: string) => (
-    <div className={widthClass}>
-      <ChartBox position={getPositionById(id)} />
-    </div>
-  );
+  const renderBox = (id: string, widthClass: string) => {
+    const position = getPositionById(id);
+    if (!position) return null;
+    return (
+      <div className={widthClass}>
+        <ChartBox position={position} />
+      </div>
+    );
+  };
 
   const renderColumn = (
     headerId: string,
@@ -327,11 +331,15 @@ export const OrganizationChart = () => {
   ) => (
     <div className="flex flex-col items-center gap-3">
       {renderBox(headerId, widthClass)}
-      {childIds.map((id) => (
-        <div key={id} className={widthClass}>
-          <ChartBox position={getPositionById(id)} />
-        </div>
-      ))}
+      {childIds.map((id) => {
+        const position = getPositionById(id);
+        if (!position) return null;
+        return (
+          <div key={id} className={widthClass}>
+            <ChartBox position={position} />
+          </div>
+        );
+      })}
     </div>
   );
 
