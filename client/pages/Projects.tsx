@@ -321,7 +321,7 @@ export default function Projects() {
         "Project: Al Reem Island Road Maintenance works",
       descValue: "AED 0.7 Million",
       image:
-        "https://images.pexels.com/photos/17404789/pexels-photo-17404789.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F9e6239d45f0d467f804c237d66fd4158?format=webp",
       status: "Completed",
     },
   ];
