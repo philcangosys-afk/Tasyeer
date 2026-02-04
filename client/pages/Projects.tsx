@@ -44,7 +44,7 @@ export default function Projects() {
       descEn:
         "Irrigation relocation and HDD works for Z29 development infrastructure project",
       image:
-        "https://images.pexels.com/photos/29274530/pexels-photo-29274530.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F45947020f77c44de8a796efb5afa6832?format=webp",
       status: "Ongoing",
     },
     {
