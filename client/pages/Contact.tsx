@@ -37,8 +37,8 @@ export default function Contact() {
       icon: <Phone className="w-8 h-8" />,
       titleAr: "الهاتف",
       titleEn: "Phone",
-      contentAr: "+971 2 583 0412 / +971 58 638 6526",
-      contentEn: "+971 2 583 0412 / +971 58 638 6526",
+      contentAr: "+971 2 583 0412 / +971 58 638 6522",
+      contentEn: "+971 2 583 0412 / +971 58 638 6522",
       link: "tel:+97125830412",
       forceLtr: true,
     },
@@ -321,7 +321,7 @@ export default function Contact() {
                     <Phone className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
                     <div className="force-ltr">
                       <p className="text-sm text-gray-300">+971 2 583 0412</p>
-                      <p className="text-sm text-gray-300">+971 58 638 6526</p>
+                      <p className="text-sm text-gray-300">+971 58 638 6522</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -406,7 +406,7 @@ export default function Contact() {
                         {isArabic ? "الهاتف:" : "Phone:"}
                       </span>{" "}
                       <span className="force-ltr">
-                        +971 2 583 0412 / +971 58 638 6526
+                        +971 2 583 0412 / +971 58 638 6522
                       </span>
                     </p>
                     <p>

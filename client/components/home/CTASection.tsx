@@ -180,7 +180,7 @@ export const CTASection = () => {
                   {isArabic ? "واتساب" : "WhatsApp"}
                 </p>
                 <p className="text-white text-lg font-bold" dir="ltr">
-                  +971 58 638 6526
+                  +971 58 638 6522
                 </p>
               </div>
             </motion.div>

@@ -330,7 +330,7 @@ export default function About() {
                     {isArabic ? "الاتصال:" : "Contact:"}
                   </p>
                   <p className="text-lg">+971 2 583 0412</p>
-                  <p className="text-lg">+971 58 638 6526</p>
+                  <p className="text-lg">+971 58 638 6522</p>
                   <p className="text-lg">head@tasyeercompany.com</p>
                   <p className="text-lg">info@tasyeercompany.com</p>
                 </div>
