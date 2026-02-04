@@ -439,7 +439,9 @@ export default function Contact() {
                       <span className="font-semibold">
                         {isArabic ? "الهاتف:" : "Phone:"}
                       </span>{" "}
-                      +971 4 583 3820 / +971 50 202 2208
+                      <span className="force-ltr">
+                        +971 4 583 3820 / +971 50 202 2208
+                      </span>
                     </p>
                     <p>
                       <span className="font-semibold">
