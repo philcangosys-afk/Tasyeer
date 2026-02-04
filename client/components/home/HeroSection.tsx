@@ -146,7 +146,7 @@ export const HeroSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.3] mb-6 pb-2 pt-1 overflow-visible"
+              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.3] lg:leading-[1.4] mb-6 pb-2 lg:pb-4 pt-1 overflow-visible"
             >
               <span className="block">{isArabic ? "بناء المستقبل" : "Building the"}</span>
               <span className="block bg-gradient-to-r from-tasyeer-orange via-yellow-400 to-tasyeer-orange bg-clip-text text-transparent">
