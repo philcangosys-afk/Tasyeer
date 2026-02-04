@@ -49,7 +49,7 @@ export default function About() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              {isArabic ? "عن تسيير" : "About Tasyeer"}
+              {isArabic ? "عن تسيير" : "About TASYEER"}
             </h1>
             <div className="h-1 w-24 bg-tasyeer-orange mx-auto mb-6"></div>
             <p className="text-xl text-gray-100 max-w-3xl mx-auto">
