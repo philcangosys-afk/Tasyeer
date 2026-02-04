@@ -82,7 +82,7 @@ export default function Projects() {
       descEn:
         "Construction of comprehensive roads and infrastructure in MBZ City One C area",
       image:
-        "https://images.pexels.com/photos/35846752/pexels-photo-35846752.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7cf8fd4cca3545c682bab08ff15a2100?format=webp",
       status: "Ongoing",
     },
     {
