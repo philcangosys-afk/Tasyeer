@@ -221,7 +221,7 @@ export default function Projects() {
         "Project: Al Reef Mall - Phase II Development, Refurbishment & New BExpansion in Road and Landscape",
       descValue: "AED 5 Million",
       image:
-        "https://images.pexels.com/photos/35300832/pexels-photo-35300832.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Faa14a82e154940d1adee04edbba51417?format=webp",
       status: "Completed",
     },
     {
