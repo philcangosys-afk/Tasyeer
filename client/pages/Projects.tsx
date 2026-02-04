@@ -261,7 +261,7 @@ export default function Projects() {
         "Road improvement and maintenance works, Madinat Zayed 3187006. Maintenance of Internal Roads and Parking lots for the Armed Forces Sailing",
       descValue: "AED 3.1 Million",
       image:
-        "https://images.pexels.com/photos/33029854/pexels-photo-33029854.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7766b4ac5a284ce4a44510829fb78f57?format=webp",
       status: "Completed",
     },
     {
