@@ -50,9 +50,9 @@ export default function Services() {
     },
     {
       icon: <Truck className="w-12 h-12" />,
-      titleAr: "توريد وتنقل المواد",
+      titleAr: "توريد ونقل المواد",
       titleEn: "Material Supply & Transportation",
-      descAr: "توريد وتنقل المواد البناء والخامات اللازمة لجميع المشاريع",
+      descAr: "توريد ونقل مواد البناء والخامات اللازمة لجميع المشاريع",
       descEn:
         "Supply and transportation of construction materials and raw materials",
     },
