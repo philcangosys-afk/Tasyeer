@@ -107,11 +107,17 @@ export const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={20} className="text-tasyeer-orange flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">+971 2 XXX XXXX</span>
+                <div className="flex flex-col">
+                  <span className="text-gray-300">+971 2 583 0412</span>
+                  <span className="text-gray-300">+971 58 638 6526</span>
+                </div>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-tasyeer-orange flex-shrink-0 mt-0.5" />
-                <span className="text-gray-300">info@tasyeer.ae</span>
+                <div className="flex flex-col">
+                  <span className="text-gray-300">head@tasyeercompany.com</span>
+                  <span className="text-gray-300">info@tasyeercompany.com</span>
+                </div>
               </li>
             </ul>
           </div>
