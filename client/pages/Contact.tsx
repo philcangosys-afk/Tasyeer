@@ -45,9 +45,9 @@ export default function Contact() {
       icon: <Mail className="w-8 h-8" />,
       titleAr: "البريد الإلكتروني",
       titleEn: "Email",
-      contentAr: "info@tasyeercompany.com",
-      contentEn: "hello@tasyeercompany.com",
-      link: "mailto:info@tasyeercompany.com",
+      contentAr: "head@tasyeercompany.com / info@tasyeercompany.com",
+      contentEn: "head@tasyeercompany.com / info@tasyeercompany.com",
+      link: "mailto:head@tasyeercompany.com",
     },
     {
       icon: <Clock className="w-8 h-8" />,
