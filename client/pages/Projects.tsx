@@ -120,7 +120,7 @@ export default function Projects() {
       descEn:
         "Infrastructure and hardscaping construction for ADNOC station in Khalidiya",
       image:
-        "https://images.pexels.com/photos/26200673/pexels-photo-26200673.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Faa14a82e154940d1adee04edbba51417?format=webp",
       status: "Ongoing",
     },
     // Completed Projects
