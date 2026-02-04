@@ -63,7 +63,7 @@ export default function Projects() {
       descEn:
         "Construction of advanced roads and concrete barriers under bridge with highest safety standards",
       image:
-        "https://images.pexels.com/photos/33016636/pexels-photo-33016636.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fcb896600cb78409b94225b6ab61bd638?format=webp",
       status: "Completed",
     },
     {
