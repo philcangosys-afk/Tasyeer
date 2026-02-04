@@ -188,4 +188,9 @@
   .text-gradient {
     @apply bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange bg-clip-text text-transparent;
   }
+
+  .force-ltr {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
 }
