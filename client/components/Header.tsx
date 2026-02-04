@@ -45,7 +45,7 @@ export const Header = () => {
               isArabic ? "flex-row-reverse" : "flex-row"
             }`}
           >
-            {navLinks.map((link) => (
+            {orderedNavLinks.map((link) => (
               <Link
                 key={link.key}
                 to={link.path}
