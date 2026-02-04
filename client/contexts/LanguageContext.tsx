@@ -265,7 +265,7 @@ const translations = {
   },
 
   // Footer
-  "footer.about": { ar: "عن تسيير", en: "About Tasyeer" },
+  "footer.about": { ar: "عن تسيير", en: "About TASYEER" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
   "footer.contact": { ar: "معلومات الاتصال", en: "Contact Information" },
   "footer.location": { ar: "منطقة الكاد 1، أبو ظبي", en: "ICAD1, Abu Dhabi" },
