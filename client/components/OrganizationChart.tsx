@@ -342,7 +342,7 @@ export const OrganizationChart = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto"
+          className="mt-8 md:mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 max-w-3xl mx-auto px-4"
         >
           <div className="bg-gradient-to-r from-tasyeer-maroon to-red-700 rounded-lg p-4 text-white text-center">
             <div className="font-bold text-sm">
