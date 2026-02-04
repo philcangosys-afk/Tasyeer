@@ -40,6 +40,7 @@ export default function Contact() {
       contentAr: "+971 2 583 0412 / +971 58 638 6526",
       contentEn: "+971 2 583 0412 / +971 58 638 6526",
       link: "tel:+97125830412",
+      forceLtr: true,
     },
     {
       icon: <Mail className="w-8 h-8" />,
@@ -48,6 +49,7 @@ export default function Contact() {
       contentAr: "head@tasyeercompany.com / info@tasyeercompany.com",
       contentEn: "head@tasyeercompany.com / info@tasyeercompany.com",
       link: "mailto:head@tasyeercompany.com",
+      forceLtr: true,
     },
     {
       icon: <Clock className="w-8 h-8" />,
@@ -145,7 +147,11 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-tasyeer-dark-gray mb-3">
                   {isArabic ? info.titleAr : info.titleEn}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p
+                  className={`text-gray-600 leading-relaxed ${
+                    info.forceLtr ? "force-ltr" : ""
+                  }`}
+                >
                   {isArabic ? info.contentAr : info.contentEn}
                 </p>
               </motion.a>
