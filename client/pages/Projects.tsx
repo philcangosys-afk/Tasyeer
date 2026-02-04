@@ -241,7 +241,7 @@ export default function Projects() {
         "J262-Riyad City South Phase - Infrastructure & Streetscape, Construction of Roads, Infrastructure and Public Realm",
       descValue: "AED 3 Million",
       image:
-        "https://images.pexels.com/photos/32598872/pexels-photo-32598872.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe9d662aa9ea64ee4abf62567253ab77c?format=webp",
       status: "Completed",
     },
     {
