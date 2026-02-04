@@ -172,13 +172,13 @@ export default function Services() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center"
+            className={`${isArabic ? "text-right" : "text-center"}`}
           >
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <h1 className={`text-5xl md:text-6xl font-bold mb-6 ${isArabic ? "text-right" : "text-center"}`}>
               {isArabic ? "خدماتنا المتخصصة" : "Our Specialized Services"}
             </h1>
-            <div className="h-1 w-24 bg-tasyeer-orange mx-auto mb-6"></div>
-            <p className="text-xl text-gray-100 max-w-3xl mx-auto">
+            <div className={`h-1 w-24 bg-tasyeer-orange mb-6 ${isArabic ? "mr-0 ml-auto" : "mx-auto"}`}></div>
+            <p className={`text-xl text-gray-100 max-w-3xl ${isArabic ? "mr-auto ml-0 text-right" : "mx-auto text-center"}`}>
               {isArabic
                 ? "نقدم مجموعة شاملة من خدمات البنية التحتية والمقاولات التي تلبي احتياجات السوق الإقليمية"
                 : "We provide a comprehensive range of infrastructure and contracting services tailored to meet regional market needs"}
