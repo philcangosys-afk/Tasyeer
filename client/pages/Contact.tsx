@@ -382,6 +382,31 @@ export default function Contact() {
                 </ul>
               </div>
 
+              {/* Branches Information */}
+              <div className="grid grid-cols-1 gap-4">
+                <div className="bg-white rounded-lg p-6 border-2 border-tasyeer-maroon">
+                  <h3 className="text-lg font-bold text-tasyeer-maroon mb-4">
+                    {isArabic ? "أبو ظبي (المقر الرئيسي)" : "Abu Dhabi (Headquarters)"}
+                  </h3>
+                  <div className="space-y-2 text-gray-700">
+                    <p><span className="font-semibold">{isArabic ? "الهاتف:" : "Phone:"}</span> +971 2 583 0412 / +971 58 638 6526</p>
+                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> head@tasyeercompany.com</p>
+                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> info@tasyeercompany.com</p>
+                    <p><span className="font-semibold">{isArabic ? "صندوق البريد:" : "P.O. Box:"}</span> 56591</p>
+                  </div>
+                </div>
+
+                <div className="bg-white rounded-lg p-6 border-2 border-tasyeer-orange">
+                  <h3 className="text-lg font-bold text-tasyeer-orange mb-4">
+                    {isArabic ? "دبي" : "Dubai"}
+                  </h3>
+                  <div className="space-y-2 text-gray-700">
+                    <p><span className="font-semibold">{isArabic ? "الهاتف:" : "Phone:"}</span> +971 4 583 3820 / +971 50 202 2208</p>
+                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> dubai@tasyeer.ae</p>
+                  </div>
+                </div>
+              </div>
+
               {/* Social Media */}
               <div>
                 <h3 className="text-xl font-bold text-tasyeer-dark-gray mb-4">
