@@ -101,7 +101,7 @@ export default function Projects() {
       descEn:
         "Construction of mechanically stabilized earth retaining wall with high specifications",
       image:
-        "https://images.pexels.com/photos/29062647/pexels-photo-29062647.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7766b4ac5a284ce4a44510829fb78f57?format=webp",
       status: "Completed",
     },
     {
