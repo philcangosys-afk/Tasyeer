@@ -334,16 +334,10 @@ export default function Projects() {
       labelEn: "Roads & Infrastructure",
     },
     {
-      id: "building",
-      labelAr: "المشاريع السكنية",
-      labelEn: "Building Projects",
+      id: "completed",
+      labelAr: "المشاريع المكتملة",
+      labelEn: "Completed Projects",
     },
-    {
-      id: "landscape",
-      labelAr: "تنسيق المناظر الطبيعية",
-      labelEn: "Landscaping",
-    },
-    { id: "water", labelAr: "الأنظمة المائية", labelEn: "Water Systems" },
   ];
 
   const filteredProjects =
