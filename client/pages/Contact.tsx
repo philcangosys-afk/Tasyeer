@@ -402,7 +402,7 @@ export default function Contact() {
                   </h3>
                   <div className="space-y-2 text-gray-700">
                     <p><span className="font-semibold">{isArabic ? "الهاتف:" : "Phone:"}</span> +971 4 583 3820 / +971 50 202 2208</p>
-                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> dubai@tasyeer.ae</p>
+                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> info@tasyeercompany.com</p>
                   </div>
                 </div>
               </div>
