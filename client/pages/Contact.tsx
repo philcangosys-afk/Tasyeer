@@ -425,7 +425,7 @@ export default function Contact() {
                       <span className="font-semibold">
                         {isArabic ? "صندوق البريد:" : "P.O. Box:"}
                       </span>{" "}
-                      56591
+                      <span className="force-ltr">56591</span>
                     </p>
                   </div>
                 </div>
