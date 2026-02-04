@@ -201,15 +201,15 @@ export default function Services() {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-tasyeer-orange hover:border-tasyeer-maroon"
+                className={`group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 ${isArabic ? "border-r-4 border-l-0" : "border-l-4 border-r-0"} border-tasyeer-orange hover:border-tasyeer-maroon`}
               >
-                <div className="text-tasyeer-maroon group-hover:text-tasyeer-orange transition-colors mb-4">
+                <div className={`text-tasyeer-maroon group-hover:text-tasyeer-orange transition-colors mb-4 ${isArabic ? "text-right" : "text-left"}`}>
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-bold text-tasyeer-dark-gray mb-3">
+                <h3 className={`text-xl font-bold text-tasyeer-dark-gray mb-3 ${isArabic ? "text-right" : "text-left"}`}>
                   {isArabic ? service.titleAr : service.titleEn}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className={`text-gray-600 text-sm leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
                   {isArabic ? service.descAr : service.descEn}
                 </p>
               </motion.div>
