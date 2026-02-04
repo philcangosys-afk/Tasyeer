@@ -28,9 +28,9 @@ export default function Contact() {
       icon: <MapPin className="w-8 h-8" />,
       titleAr: "الموقع",
       titleEn: "Location",
-      contentAr: "صندوق البريد 5691، بناء ICAD1 المتحد، أبو ظبي، الإمارات",
+      contentAr: "صندوق البريد 56591، أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات",
       contentEn:
-        "P.O. Box No. 5691, ICAD1 Allied office building, Abu Dhabi, UAE",
+        "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Suqal Street, UAE",
       link: "#",
     },
     {
