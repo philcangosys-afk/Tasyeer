@@ -352,8 +352,8 @@ export default function About() {
                   <p className="text-gray-200 text-sm mb-2">
                     {isArabic ? "الاتصال:" : "Contact:"}
                   </p>
-                  <p className="text-lg">+971 4 XXX XXXX</p>
-                  <p className="text-lg">+971 XX XXX XXXX</p>
+                  <p className="text-lg">+971 4 583 3820</p>
+                  <p className="text-lg">+971 50 202 2208</p>
                   <p className="text-lg">dubai@tasyeer.ae</p>
                 </div>
               </div>
