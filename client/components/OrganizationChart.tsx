@@ -15,143 +15,325 @@ export const OrganizationChart = () => {
   const positions: Position[] = [
     // Level 0
     {
-      id: "chairman",
-      titleAr: "رئيس مجلس الإدارة والمالك",
-      titleEn: "Chairman | Owner",
+      id: "owner",
+      titleAr: "المالك / الرئيس التنفيذي / الرئيس",
+      titleEn: "Owner / CEO / President",
       level: 0,
     },
     // Level 1
     {
-      id: "gm",
-      titleAr: "المدير العام",
-      titleEn: "General Manager",
+      id: "coo",
+      titleAr: "الرئيس التنفيذي للعمليات",
+      titleEn: "Chief Operating Officer (COO)",
       level: 1,
-      parentId: "chairman",
+      parentId: "owner",
+    },
+    {
+      id: "cfo",
+      titleAr: "الرئيس المالي",
+      titleEn: "Chief Financial Officer (CFO)",
+      level: 1,
+      parentId: "owner",
+    },
+    {
+      id: "vps",
+      titleAr: "نواب الرئيس",
+      titleEn: "Vice Presidents",
+      level: 1,
+      parentId: "owner",
     },
     // Level 2
     {
-      id: "secretary",
-      titleAr: "سكرتيرة المكتب",
-      titleEn: "Office Secretary",
+      id: "operations",
+      titleAr: "العمليات وإدارة المشاريع",
+      titleEn: "Operations & Project Management",
       level: 2,
-      parentId: "gm",
+      parentId: "coo",
     },
     {
-      id: "hr",
-      titleAr: "مدير الموارد البشرية",
-      titleEn: "HR Manager",
+      id: "specialized",
+      titleAr: "الإدارات المتخصصة",
+      titleEn: "Specialized Departments",
       level: 2,
-      parentId: "gm",
+      parentId: "cfo",
     },
-    // Level 3
+    // Level 3 - Column headers
     {
-      id: "qty",
-      titleAr: "مراقب الكميات",
-      titleEn: "QTY Surveyor",
+      id: "projectDirectorHead",
+      titleAr: "مدير المشاريع",
+      titleEn: "Project Director",
       level: 3,
-      parentId: "gm",
-    },
-    {
-      id: "qa",
-      titleAr: "مدير الجودة والمراقبة",
-      titleEn: "QA/QC Manager",
-      level: 3,
-      parentId: "gm",
+      parentId: "operations",
     },
     {
-      id: "pe",
-      titleAr: "مهندس المشروع",
-      titleEn: "Project Engineer",
+      id: "estimating",
+      titleAr: "التقدير",
+      titleEn: "Estimating",
       level: 3,
-      parentId: "gm",
+      parentId: "operations",
     },
     {
-      id: "accountant",
-      titleAr: "محاسب",
-      titleEn: "Accountant",
+      id: "preconstruction",
+      titleAr: "ما قبل الإنشاء",
+      titleEn: "Preconstruction",
       level: 3,
-      parentId: "gm",
+      parentId: "operations",
+    },
+    {
+      id: "scheduling",
+      titleAr: "الجدولة",
+      titleEn: "Scheduling",
+      level: 3,
+      parentId: "operations",
+    },
+    {
+      id: "procurement",
+      titleAr: "المشتريات",
+      titleEn: "Procurement",
+      level: 3,
+      parentId: "specialized",
+    },
+    {
+      id: "safety",
+      titleAr: "السلامة",
+      titleEn: "Safety",
+      level: 3,
+      parentId: "specialized",
+    },
+    {
+      id: "quality",
+      titleAr: "الجودة",
+      titleEn: "Quality",
+      level: 3,
+      parentId: "specialized",
+    },
+    {
+      id: "legal",
+      titleAr: "الشؤون القانونية",
+      titleEn: "Legal Affairs",
+      level: 3,
+      parentId: "specialized",
     },
     // Level 4
     {
-      id: "documents",
-      titleAr: "مسؤول الوثائق",
-      titleEn: "Documents",
+      id: "projectDirector",
+      titleAr: "مدير المشاريع",
+      titleEn: "Project Director",
       level: 4,
-      parentId: "qa",
+      parentId: "projectDirectorHead",
     },
     {
-      id: "draftsman",
-      titleAr: "رسام تقني",
-      titleEn: "Draftsman",
+      id: "seniorEstimator",
+      titleAr: "كبير مقدري التكاليف",
+      titleEn: "Senior Estimator",
       level: 4,
-      parentId: "qa",
+      parentId: "estimating",
     },
     {
-      id: "se",
-      titleAr: "مهندس الموقع",
-      titleEn: "Site Engineer",
+      id: "preconstructionManager",
+      titleAr: "مدير ما قبل الإنشاء",
+      titleEn: "Preconstruction Manager",
       level: 4,
-      parentId: "pe",
+      parentId: "preconstruction",
+    },
+    {
+      id: "scheduler",
+      titleAr: "مسؤول الجدولة",
+      titleEn: "Scheduler",
+      level: 4,
+      parentId: "scheduling",
+    },
+    {
+      id: "purchasingManager",
+      titleAr: "مدير المشتريات",
+      titleEn: "Purchasing Manager",
+      level: 4,
+      parentId: "procurement",
+    },
+    {
+      id: "safetyManager",
+      titleAr: "مدير السلامة",
+      titleEn: "Safety Manager",
+      level: 4,
+      parentId: "safety",
+    },
+    {
+      id: "qualityManager",
+      titleAr: "مدير الجودة",
+      titleEn: "Quality Manager",
+      level: 4,
+      parentId: "quality",
+    },
+    {
+      id: "legalAssistant",
+      titleAr: "مساعد قانوني",
+      titleEn: "Legal Assistant",
+      level: 4,
+      parentId: "legal",
     },
     // Level 5
     {
-      id: "foreman",
-      titleAr: "مقاول المشروع",
-      titleEn: "General Foreman",
+      id: "projectDirector2",
+      titleAr: "مدير المشاريع",
+      titleEn: "Project Director",
       level: 5,
-      parentId: "se",
+      parentId: "projectDirector",
     },
     {
-      id: "ls",
-      titleAr: "مساح الأراضي",
-      titleEn: "Land Surveyor",
+      id: "juniorEstimators",
+      titleAr: "مقدرو تكاليف مبتدئون",
+      titleEn: "Junior Estimators",
       level: 5,
-      parentId: "se",
+      parentId: "estimating",
+    },
+    {
+      id: "preconstructionCoordinator",
+      titleAr: "منسق ما قبل الإنشاء",
+      titleEn: "Preconstruction Coordinator",
+      level: 5,
+      parentId: "preconstruction",
+    },
+    {
+      id: "schedulingAssistant",
+      titleAr: "مساعد الجدولة",
+      titleEn: "Scheduling Assistant",
+      level: 5,
+      parentId: "scheduling",
+    },
+    {
+      id: "purchasingAgent1",
+      titleAr: "مسؤول المشتريات",
+      titleEn: "Purchasing Agent",
+      level: 5,
+      parentId: "procurement",
+    },
+    {
+      id: "qcInspector",
+      titleAr: "مفتش الجودة",
+      titleEn: "QC Inspector",
+      level: 5,
+      parentId: "quality",
     },
     // Level 6
     {
-      id: "siteForeman",
-      titleAr: "مقاول موقع",
-      titleEn: "Foreman",
+      id: "projectManager",
+      titleAr: "مدير مشروع",
+      titleEn: "Project Manager",
       level: 6,
-      parentId: "foreman",
+      parentId: "projectDirector",
     },
     {
-      id: "assistSurveyor",
-      titleAr: "مساعد مساح",
-      titleEn: "Assist. Surveyor",
+      id: "purchasingAgent2",
+      titleAr: "مسؤول المشتريات",
+      titleEn: "Purchasing Agent",
       level: 6,
-      parentId: "ls",
+      parentId: "procurement",
+    },
+    {
+      id: "qaSpecialist",
+      titleAr: "أخصائي ضمان الجودة",
+      titleEn: "QA Specialist",
+      level: 6,
+      parentId: "quality",
     },
     // Level 7
     {
-      id: "operators",
-      titleAr: "مشغلوا الآليات",
-      titleEn: "Operators",
+      id: "superintendent",
+      titleAr: "مشرف عام",
+      titleEn: "Superintendent",
       level: 7,
-      parentId: "siteForeman",
+      parentId: "projectManager",
     },
     {
-      id: "chainmen",
-      titleAr: "عمال القياس",
-      titleEn: "Chainmen",
+      id: "expeditor",
+      titleAr: "منسق التوريد",
+      titleEn: "Expeditor",
       level: 7,
-      parentId: "assistSurveyor",
+      parentId: "procurement",
     },
     // Level 8
     {
-      id: "helpers",
-      titleAr: "مساعدون",
-      titleEn: "Helpers",
+      id: "foreman",
+      titleAr: "رئيس العمال",
+      titleEn: "Foreman",
       level: 8,
-      parentId: "operators",
+      parentId: "superintendent",
     },
   ];
 
-  const getPositionsByLevel = (level: number) => {
-    return positions.filter((pos) => pos.level === level);
+  const operationsColumns = [
+    {
+      headerId: "projectDirectorHead",
+      childIds: [
+        "projectDirector",
+        "projectDirector2",
+        "projectManager",
+        "superintendent",
+        "foreman",
+      ],
+    },
+    {
+      headerId: "estimating",
+      childIds: ["seniorEstimator", "juniorEstimators"],
+    },
+    {
+      headerId: "preconstruction",
+      childIds: ["preconstructionManager", "preconstructionCoordinator"],
+    },
+    {
+      headerId: "scheduling",
+      childIds: ["scheduler", "schedulingAssistant"],
+    },
+  ];
+
+  const specializedColumns = [
+    {
+      headerId: "procurement",
+      childIds: [
+        "purchasingManager",
+        "purchasingAgent1",
+        "purchasingAgent2",
+        "expeditor",
+      ],
+    },
+    {
+      headerId: "safety",
+      childIds: ["safetyManager"],
+    },
+    {
+      headerId: "quality",
+      childIds: ["qualityManager", "qcInspector", "qaSpecialist"],
+    },
+    {
+      headerId: "legal",
+      childIds: ["legalAssistant"],
+    },
+  ];
+
+  const getPositionById = (id: string) => {
+    return positions.find((pos) => pos.id === id)!;
   };
+
+  const renderBox = (id: string, widthClass: string) => (
+    <div className={widthClass}>
+      <ChartBox position={getPositionById(id)} />
+    </div>
+  );
+
+  const renderColumn = (
+    headerId: string,
+    childIds: string[],
+    widthClass: string,
+  ) => (
+    <div className="flex flex-col items-center gap-3">
+      {renderBox(headerId, widthClass)}
+      {childIds.map((id) => (
+        <div key={id} className={widthClass}>
+          <ChartBox position={getPositionById(id)} />
+        </div>
+      ))}
+    </div>
+  );
 
   const containerVariants = {
     hidden: { opacity: 0 },
