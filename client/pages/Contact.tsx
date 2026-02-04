@@ -138,6 +138,8 @@ export default function Contact() {
               <motion.a
                 key={index}
                 href={info.link}
+                target={info.link === "#" ? undefined : "_blank"}
+                rel={info.link === "#" ? undefined : "noopener noreferrer"}
                 variants={itemVariants}
                 className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border-t-4 border-tasyeer-orange block group"
               >
