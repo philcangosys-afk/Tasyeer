@@ -22,13 +22,13 @@ export const ClientsSection = () => {
       logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc72bb74aca464b3fb1319896ffc73989?format=webp"
     },
     {
-      name: "MODON",
-      nameAr: "موادن",
+      name: "MDON",
+      nameAr: "مدن",
       logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe7db2a890df64d99a4fe82aefa66cdca?format=webp"
     },
     {
-      name: "KIZAD",
-      nameAr: "كيزاد",
+      name: "KIZAD Group",
+      nameAr: "مجموعة كيزاد",
       logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fd63f216eb32f4ff19393505bffbb7fa4?format=webp"
     },
     {
