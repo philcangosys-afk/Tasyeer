@@ -1,5 +1,4 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { useLanguage } from "@/contexts/LanguageContext";
 import { motion } from "framer-motion";
 import { Award, Target, Heart, Users } from "lucide-react";
 import { OrganizationChart } from "@/components/OrganizationChart";
