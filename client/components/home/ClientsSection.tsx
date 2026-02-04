@@ -105,20 +105,21 @@ export const ClientsSection = () => {
           {allClients.map((client, index) => (
             <motion.div
               key={index}
-              whileHover={{ scale: 1.1 }}
-              className="flex-shrink-0 bg-white px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 min-w-[200px]"
+              whileHover={{ scale: 1.05, y: -5 }}
+              className="flex-shrink-0 bg-white px-6 py-8 rounded-xl shadow-md hover:shadow-2xl transition-all border border-gray-100 min-w-[180px] flex flex-col items-center justify-center"
             >
-              <div className="flex flex-col items-center gap-3">
-                {/* Placeholder logo */}
-                <div className="w-16 h-16 bg-gradient-to-br from-tasyeer-maroon/10 to-tasyeer-orange/10 rounded-xl flex items-center justify-center">
-                  <span className="text-2xl font-bold text-tasyeer-maroon">
-                    {client.name.charAt(0)}
-                  </span>
-                </div>
-                <span className="text-sm font-semibold text-gray-700 text-center">
-                  {isArabic ? client.nameAr : client.name}
-                </span>
+              {/* Client logo */}
+              <div className="w-24 h-24 flex items-center justify-center mb-4 bg-gray-50 rounded-lg p-2">
+                <img
+                  src={client.logo}
+                  alt={client.name}
+                  className="w-full h-full object-contain"
+                  loading="lazy"
+                />
               </div>
+              <span className="text-xs font-semibold text-gray-600 text-center line-clamp-2 h-10 flex items-center justify-center">
+                {isArabic ? client.nameAr : client.name}
+              </span>
             </motion.div>
           ))}
         </motion.div>
