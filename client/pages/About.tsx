@@ -268,6 +268,146 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {/* Branches Section */}
+      <section className="py-20 bg-white">
+        <div className="container-tight">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-4xl font-bold text-tasyeer-dark-gray mb-4">
+              {isArabic ? "فروعنا" : "Our Branches"}
+            </h2>
+            <div className="h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto"></div>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Abu Dhabi Branch */}
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              className="bg-gradient-to-br from-tasyeer-maroon to-red-700 text-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">🏢</span>
+                </div>
+                <h3 className="text-2xl font-bold">
+                  {isArabic ? "أبو ظبي (مقر رئيسي)" : "Abu Dhabi (Headquarters)"}
+                </h3>
+              </div>
+              <div className="space-y-4">
+                <div>
+                  <p className="text-gray-200 text-sm mb-1">
+                    {isArabic ? "العنوان:" : "Address:"}
+                  </p>
+                  <p className="text-lg">
+                    {isArabic
+                      ? "الكاد 1، بناء ICAD1 المتحد، أبو ظبي، الإمارات العربية المتحدة"
+                      : "ICAD1 Allied Office Building, Abu Dhabi, UAE"}
+                  </p>
+                </div>
+                <div className="border-t border-white/20 pt-4">
+                  <p className="text-gray-200 text-sm mb-2">
+                    {isArabic ? "الاتصال:" : "Contact:"}
+                  </p>
+                  <p className="text-lg">+971 2 583 0412</p>
+                  <p className="text-lg">+971 58 638 6526</p>
+                  <p className="text-lg">info@tasyeer.ae</p>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Dubai Branch */}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-gradient-to-br from-blue-600 to-blue-700 text-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">🌆</span>
+                </div>
+                <h3 className="text-2xl font-bold">
+                  {isArabic ? "دبي" : "Dubai"}
+                </h3>
+              </div>
+              <div className="space-y-4">
+                <div>
+                  <p className="text-gray-200 text-sm mb-1">
+                    {isArabic ? "العنوان:" : "Address:"}
+                  </p>
+                  <p className="text-lg">
+                    {isArabic
+                      ? "دبي، الإمارات العربية المتحدة"
+                      : "Dubai, United Arab Emirates"}
+                  </p>
+                </div>
+                <div className="border-t border-white/20 pt-4">
+                  <p className="text-gray-200 text-sm mb-2">
+                    {isArabic ? "الاتصال:" : "Contact:"}
+                  </p>
+                  <p className="text-lg">+971 4 XXX XXXX</p>
+                  <p className="text-lg">+971 XX XXX XXXX</p>
+                  <p className="text-lg">dubai@tasyeer.ae</p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Branch Features */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-16 bg-gray-50 rounded-lg p-8"
+          >
+            <h3 className="text-2xl font-bold text-tasyeer-dark-gray mb-6 text-center">
+              {isArabic ? "خدمات الفروع" : "Branch Services"}
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="text-4xl mb-4">📋</div>
+                <h4 className="font-bold text-tasyeer-dark-gray mb-2">
+                  {isArabic ? "الاستشارات الهندسية" : "Engineering Consultations"}
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  {isArabic
+                    ? "استشارات متخصصة للمشاريع الكبرى والصغرى"
+                    : "Specialized consulting for major and minor projects"}
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="text-4xl mb-4">🤝</div>
+                <h4 className="font-bold text-tasyeer-dark-gray mb-2">
+                  {isArabic ? "دعم العملاء" : "Customer Support"}
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  {isArabic
+                    ? "دعم فني متخصص ورد سريع على الاستفسارات"
+                    : "Professional technical support and quick response"}
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="text-4xl mb-4">📍</div>
+                <h4 className="font-bold text-tasyeer-dark-gray mb-2">
+                  {isArabic ? "خدمات محلية" : "Local Services"}
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  {isArabic
+                    ? "تنفيذ سريع وفعال للمشاريع في المنطقة"
+                    : "Quick and efficient project execution"}
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
     </div>
   );
 }
