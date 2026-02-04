@@ -31,7 +31,7 @@ export default function Contact() {
       contentAr:
         "صندوق البريد 56591، أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات",
       contentEn: "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Al Saqlawi St, UAE",
-      link: "#",
+      link: "https://maps.app.goo.gl/Dd5f5KZK8LZVyP6PA?g_st=ic",
     },
     {
       icon: <Phone className="w-8 h-8" />,
