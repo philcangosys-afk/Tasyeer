@@ -1,6 +1,8 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { motion } from "framer-motion";
 import { Award, Target, Heart, Users } from "lucide-react";
+import { OrganizationChart } from "@/components/OrganizationChart";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function About() {
   const { isArabic, t } = useLanguage();
