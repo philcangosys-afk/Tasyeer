@@ -319,14 +319,14 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-4">
                     <Phone className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
-                    <div>
+                    <div className="force-ltr">
                       <p className="text-sm text-gray-300">+971 2 583 0412</p>
                       <p className="text-sm text-gray-300">+971 58 638 6526</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <Mail className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
-                    <div>
+                    <div className="force-ltr">
                       <p className="text-sm text-gray-300">
                         head@tasyeercompany.com
                       </p>
