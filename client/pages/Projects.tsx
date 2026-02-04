@@ -161,7 +161,7 @@ export default function Projects() {
         "Construction of Roads, Infrastructure landscaping works at Mohammed Bin Zayed City, Zone C",
       descValue: "AED 4 Million",
       image:
-        "https://images.pexels.com/photos/5969135/pexels-photo-5969135.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7cf8fd4cca3545c682bab08ff15a2100?format=webp",
       status: "Completed",
     },
     {
