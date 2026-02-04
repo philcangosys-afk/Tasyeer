@@ -268,7 +268,7 @@ const translations = {
   "footer.about": { ar: "عن تسيير", en: "About TASYEER" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
   "footer.contact": { ar: "معلومات الاتصال", en: "Contact Information" },
-  "footer.location": { ar: "منطقة الكاد 1، أبو ظبي", en: "ICAD1, Abu Dhabi" },
+  "footer.location": { ar: "أبو ظبي - ايكاد 1 - شارع الصقلاوي", en: "Abu Dhabi - ICAD1 - Suqal Street" },
   "footer.phone": { ar: "الهاتف", en: "Phone" },
   "footer.email": { ar: "البريد الإلكتروني", en: "Email" },
   "footer.rights": { ar: "جميع الحقوق محفوظة", en: "All Rights Reserved" },
