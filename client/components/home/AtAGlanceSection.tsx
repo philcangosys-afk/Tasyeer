@@ -157,14 +157,14 @@ export const AtAGlanceSection = () => {
                 {/* Number with animation */}
                 <div className="mb-2">
                   <motion.span
-                    className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-tasyeer-dark-gray to-gray-600 bg-clip-text text-transparent"
+                    className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-tasyeer-dark-gray to-gray-600 bg-clip-text text-transparent force-ltr"
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ duration: 0.5 }}
                   >
                     {counts[index]}
                   </motion.span>
-                  <span className="text-4xl font-bold text-tasyeer-orange">
+                  <span className="text-4xl font-bold text-tasyeer-orange force-ltr">
                     {stat.suffix}
                   </span>
                 </div>
