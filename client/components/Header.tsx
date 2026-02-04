@@ -99,7 +99,7 @@ export const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-200 py-4">
-            {navLinks.map((link) => (
+            {orderedNavLinks.map((link) => (
               <Link
                 key={link.key}
                 to={link.path}
