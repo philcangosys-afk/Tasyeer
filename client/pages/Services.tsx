@@ -90,14 +90,6 @@ export default function Services() {
     },
     {
       icon: <Hammer className="w-12 h-12" />,
-      titleAr: "صيانة العمارات",
-      titleEn: "Building Maintenance",
-      descAr: "خدمات صيانة شاملة للعمارات والمنشآت التجارية بشكل دوري واحترافي",
-      descEn:
-        "Comprehensive maintenance services for buildings and commercial facilities",
-    },
-    {
-      icon: <Hammer className="w-12 h-12" />,
       titleAr: "التجديد والصيانة",
       titleEn: "Renovation & Maintenance",
       descAr:
