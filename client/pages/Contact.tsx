@@ -413,7 +413,7 @@ export default function Contact() {
                       <span className="font-semibold">
                         {isArabic ? "البريد:" : "Email:"}
                       </span>{" "}
-                      head@tasyeercompany.com
+                      <span className="force-ltr">head@tasyeercompany.com</span>
                     </p>
                     <p>
                       <span className="font-semibold">
