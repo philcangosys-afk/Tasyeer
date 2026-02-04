@@ -214,20 +214,20 @@ export const OrganizationChart = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-12 md:py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container-tight">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-8 md:mb-16"
         >
-          <h2 className="text-4xl font-bold text-tasyeer-dark-gray mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-tasyeer-dark-gray mb-4">
             {isArabic ? "الهيكل التنظيمي" : "Organization Chart"}
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto mb-6"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <div className="h-1 w-20 md:w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto mb-4 md:mb-6"></div>
+          <p className="text-gray-600 text-sm md:text-lg max-w-2xl mx-auto px-4">
             {isArabic
               ? "فريق تسيير متخصص ومنظم بعناية لتحقيق أفضل النتائج"
               : "Tasyeer's specialized team structure organized for optimal results"}
@@ -236,13 +236,13 @@ export const OrganizationChart = () => {
 
         {/* Chart Container */}
         <motion.div
-          className="overflow-x-auto pb-8"
+          className="overflow-x-auto pb-6 md:pb-8"
           initial="hidden"
           whileInView="visible"
           variants={containerVariants}
           viewport={{ once: true, margin: "-50px" }}
         >
-          <div className="min-w-max inline-flex flex-col gap-12 px-4">
+          <div className="min-w-max inline-flex flex-col gap-6 md:gap-12 px-2 md:px-4">
             {/* Level 0 - Chairman */}
             <div className="flex justify-center">
               <div className="w-56">
