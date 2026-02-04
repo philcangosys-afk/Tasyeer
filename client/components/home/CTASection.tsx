@@ -121,8 +121,8 @@ export const CTASection = () => {
                 <p className="text-white/60 text-sm mb-1">
                   {isArabic ? "اتصل بنا" : "Call Us"}
                 </p>
-                <p className="text-white text-xl font-bold" dir="ltr">
-                  +971 2 6010 500
+                <p className="text-white text-lg font-bold" dir="ltr">
+                  +971 2 583 0412
                 </p>
               </div>
             </motion.div>
@@ -139,7 +139,7 @@ export const CTASection = () => {
                 <p className="text-white/60 text-sm mb-1">
                   {isArabic ? "راسلنا" : "Email Us"}
                 </p>
-                <p className="text-white text-xl font-bold">info@tasyeer.ae</p>
+                <p className="text-white text-lg font-bold">head@tasyeercompany.com</p>
               </div>
             </motion.div>
 
@@ -155,8 +155,8 @@ export const CTASection = () => {
                 <p className="text-white/60 text-sm mb-1">
                   {isArabic ? "واتساب" : "WhatsApp"}
                 </p>
-                <p className="text-white text-xl font-bold" dir="ltr">
-                  +971 50 XXX XXXX
+                <p className="text-white text-lg font-bold" dir="ltr">
+                  +971 58 638 6526
                 </p>
               </div>
             </motion.div>
