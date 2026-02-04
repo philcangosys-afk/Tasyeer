@@ -201,7 +201,7 @@ export default function Projects() {
         "Improvement and Upgrading of the Intersection of Fujairah Port Road, Yaas Island Port Road, CMW-21022-C001-Maintenance Works Dubai",
       descValue: "AED 4 Million",
       image:
-        "https://images.pexels.com/photos/1009926/pexels-photo-1009926.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc26067114ee34d1394c4ed5c7baf8e6e?format=webp",
       status: "Completed",
     },
     {
