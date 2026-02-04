@@ -64,8 +64,8 @@ export default function Contact() {
       icon: <Clock className="w-8 h-8" />,
       titleAr: "ساعات العمل",
       titleEn: "Office Hours",
-      contentAr: "الأحد - الخميس: 8:00 - 18:00",
-      contentEn: "Sun - Thu: 8:00 AM - 6:00 PM",
+      contentAr: "الاثنين - السبت",
+      contentEn: "Monday - Saturday",
       link: "#",
     },
   ];
