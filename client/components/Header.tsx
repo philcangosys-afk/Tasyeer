@@ -19,7 +19,11 @@ export const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <nav className="container-tight">
-        <div className="flex items-center justify-between h-20">
+        <div
+          className={`flex items-center justify-between h-20 ${
+            isArabic ? "flex-row-reverse" : "flex-row"
+          }`}
+        >
           {/* Logo */}
           <Link
             to="/"
@@ -34,7 +38,11 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div
+            className={`hidden md:flex items-center gap-8 ${
+              isArabic ? "flex-row-reverse" : "flex-row"
+            }`}
+          >
             {navLinks.map((link) => (
               <Link
                 key={link.key}
@@ -47,7 +55,11 @@ export const Header = () => {
           </div>
 
           {/* Right Side Controls */}
-          <div className="flex items-center gap-4">
+          <div
+            className={`flex items-center gap-4 ${
+              isArabic ? "flex-row-reverse" : "flex-row"
+            }`}
+          >
             {/* Language Toggle */}
             <div className="flex items-center border border-gray-300 rounded-full p-1">
               <button
