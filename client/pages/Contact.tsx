@@ -293,7 +293,7 @@ export default function Contact() {
               {/* Map */}
               <div className="rounded-lg overflow-hidden shadow-lg h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.5245476364706!2d54.41852!3d24.441891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae51efb1a7ee391%3A0x837d32aa0a2a0!2sICMADE%201%2C%20Abu%20Dhabi"
+                  src="https://www.google.com/maps?q=Abu%20Dhabi%20ICAD1%20Al%20Saqlawi%20St&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
