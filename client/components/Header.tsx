@@ -25,20 +25,11 @@ export const Header = () => {
             to="/"
             className="flex items-center gap-2 font-cairo font-bold text-2xl"
           >
-            <div className="w-10 h-10 bg-tasyeer-maroon rounded flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <svg
-                  viewBox="0 0 40 40"
-                  className="w-6 h-6 text-white"
-                  fill="currentColor"
-                >
-                  {/* Minimalist square with diagonal lines representing infrastructure/roads */}
-                  <path d="M5 5 L35 5 L35 35 L5 35 Z" fill="none" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M5 5 L35 35" stroke="currentColor" strokeWidth="1.5" />
-                  <path d="M20 5 L20 35" stroke="currentColor" strokeWidth="1" opacity="0.6" />
-                </svg>
-              </div>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F695b86d14e6a4bdeab195add02aaf3df?format=webp&width=100&height=100"
+              alt="TASYEER Logo"
+              className="w-10 h-10 object-contain"
+            />
             <span className="text-tasyeer-maroon">TASYEER</span>
           </Link>
 
