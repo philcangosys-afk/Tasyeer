@@ -301,7 +301,7 @@ export default function Projects() {
         "Project: M BZ-Z29 Development for the construction of infrastructure",
       descValue: "AED 7 Million",
       image:
-        "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe9d662aa9ea64ee4abf62567253ab77c?format=webp",
       status: "Completed",
     },
     {
