@@ -217,6 +217,9 @@ export default function About() {
         </div>
       </section>
 
+      {/* Organization Chart */}
+      <OrganizationChart />
+
       {/* Why Choose Us */}
       <section className="py-20 bg-white">
         <div className="container-tight">
