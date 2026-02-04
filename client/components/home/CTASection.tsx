@@ -69,7 +69,7 @@ export const CTASection = () => {
               {isArabic ? "ابدأ مشروعك الآن" : "Start Your Project Now"}
             </motion.span>
 
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-[1.2] pb-1">
               {isArabic ? (
                 <>
                   <span className="block">هل أنت مستعد</span>
