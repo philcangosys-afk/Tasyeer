@@ -16,6 +16,8 @@ export const Header = () => {
     { key: "nav.contact", path: "/contact" },
   ];
 
+  const orderedNavLinks = isArabic ? [...navLinks].reverse() : navLinks;
+
   return (
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <nav className="container-tight">
