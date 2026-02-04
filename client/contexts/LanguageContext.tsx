@@ -287,12 +287,14 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     return (saved as Language) || "ar";
   });
 
+  useEffect(() => {
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+  }, [language]);
+
   const handleSetLanguage = (lang: Language) => {
     setLanguage(lang);
     localStorage.setItem("language", lang);
-    // Set HTML lang attribute
-    document.documentElement.lang = lang;
-    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   };
 
   const isArabic = language === "ar";
