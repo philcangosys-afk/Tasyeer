@@ -225,12 +225,12 @@ export default function Services() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-16"
+            className={isArabic ? "text-right mb-16" : "text-center mb-16"}
           >
-            <h2 className="text-4xl font-bold text-tasyeer-dark-gray mb-4">
+            <h2 className={`text-4xl font-bold text-tasyeer-dark-gray mb-4 ${isArabic ? "text-right" : "text-center"}`}>
               {isArabic ? "لماذا خدماتنا المتميزة؟" : "Why Our Services?"}
             </h2>
-            <div className="h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange mx-auto"></div>
+            <div className={`h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange ${isArabic ? "mr-auto ml-0" : "mx-auto"}`}></div>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
