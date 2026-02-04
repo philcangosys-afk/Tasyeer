@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { ArrowRight, ArrowLeft, Phone, Mail, MessageCircle } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowLeft,
+  Phone,
+  Mail,
+  MessageCircle,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export const CTASection = () => {
@@ -23,10 +29,23 @@ export const CTASection = () => {
         />
 
         {/* Grid pattern overlay */}
-        <svg className="absolute inset-0 w-full h-full opacity-5" viewBox="0 0 100 100">
+        <svg
+          className="absolute inset-0 w-full h-full opacity-5"
+          viewBox="0 0 100 100"
+        >
           <defs>
-            <pattern id="ctaGrid" width="5" height="5" patternUnits="userSpaceOnUse">
-              <path d="M 5 0 L 0 0 0 5" fill="none" stroke="white" strokeWidth="0.1" />
+            <pattern
+              id="ctaGrid"
+              width="5"
+              height="5"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 5 0 L 0 0 0 5"
+                fill="none"
+                stroke="white"
+                strokeWidth="0.1"
+              />
             </pattern>
           </defs>
           <rect width="100" height="100" fill="url(#ctaGrid)" />
@@ -77,7 +96,10 @@ export const CTASection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/contact">
                 <motion.button
-                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(235,183,106,0.4)" }}
+                  whileHover={{
+                    scale: 1.05,
+                    boxShadow: "0 20px 40px rgba(235,183,106,0.4)",
+                  }}
                   whileTap={{ scale: 0.95 }}
                   className="group bg-gradient-to-r from-tasyeer-orange to-yellow-500 text-tasyeer-dark-gray font-bold py-4 px-8 rounded-xl inline-flex items-center gap-3 justify-center shadow-lg w-full sm:w-auto"
                 >
@@ -139,7 +161,9 @@ export const CTASection = () => {
                 <p className="text-white/60 text-sm mb-1">
                   {isArabic ? "راسلنا" : "Email Us"}
                 </p>
-                <p className="text-white text-lg font-bold">head@tasyeercompany.com</p>
+                <p className="text-white text-lg font-bold">
+                  head@tasyeercompany.com
+                </p>
               </div>
             </motion.div>
 

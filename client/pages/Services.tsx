@@ -28,8 +28,7 @@ export default function Services() {
       icon: <Zap className="w-12 h-12" />,
       titleAr: "صيانة وإصلاح الطرق",
       titleEn: "Road Maintenance & Repair",
-      descAr:
-        "خدمات صيانة دورية وإصلاح شاملة للطرق الموجودة لضمان سلامتها",
+      descAr: "خدمات صيانة دورية وإصلاح شاملة للطرق الموجودة لضمان سلامتها",
       descEn:
         "Regular maintenance and comprehensive repair services for existing roads",
     },
@@ -37,8 +36,7 @@ export default function Services() {
       icon: <Building2 className="w-12 h-12" />,
       titleAr: "بناء الطرق الداخلية",
       titleEn: "Internal Roads Construction",
-      descAr:
-        "تطوير شبكات الطرق الداخلية للمشاريع والمجمعات السكنية والتجارية",
+      descAr: "تطوير شبكات الطرق الداخلية للمشاريع والمجمعات السكنية والتجارية",
       descEn:
         "Development of internal road networks for residential and commercial complexes",
     },
@@ -46,8 +44,7 @@ export default function Services() {
       icon: <Truck className="w-12 h-12" />,
       titleAr: "الرصف والتعبيد",
       titleEn: "Asphalt & Paving",
-      descAr:
-        "خدمات الرصف بالإسفلت والتعبيد بأعلى معايير الجودة والمتانة",
+      descAr: "خدمات الرصف بالإسفلت والتعبيد بأعلى معايير الجودة والمتانة",
       descEn:
         "Professional asphalt paving services with highest quality standards",
     },
@@ -55,8 +52,7 @@ export default function Services() {
       icon: <Truck className="w-12 h-12" />,
       titleAr: "توريد وتنقل المواد",
       titleEn: "Material Supply & Transportation",
-      descAr:
-        "توريد وتنقل المواد البناء والخامات اللازمة لجميع المشاريع",
+      descAr: "توريد وتنقل المواد البناء والخامات اللازمة لجميع المشاريع",
       descEn:
         "Supply and transportation of construction materials and raw materials",
     },
@@ -66,15 +62,13 @@ export default function Services() {
       titleEn: "Landscaping & Gardening",
       descAr:
         "تصميم وتنفيذ مشاريع تنسيق المناظر الطبيعية والحدائق العامة والخاصة",
-      descEn:
-        "Design and implementation of landscaping and gardening projects",
+      descEn: "Design and implementation of landscaping and gardening projects",
     },
     {
       icon: <Pickaxe className="w-12 h-12" />,
       titleAr: "الحفر والأعمال الترابية",
       titleEn: "Excavation & Earthworks",
-      descAr:
-        "أعمال الحفر والحفريات والأعمال الترابية المتخصصة بكفاءة عالية",
+      descAr: "أعمال الحفر والحفريات والأعمال الترابية المتخصصة بكفاءة عالية",
       descEn:
         "Specialized excavation and earthwork operations with high efficiency",
     },
@@ -82,8 +76,7 @@ export default function Services() {
       icon: <Zap className="w-12 h-12" />,
       titleAr: "مقاولات النفط والغاز",
       titleEn: "Oil & Gas Field Facilities",
-      descAr:
-        "تشييد وصيانة مرافق النفط والغاز بكفاءة عالية وسلامة مضمونة",
+      descAr: "تشييد وصيانة مرافق النفط والغاز بكفاءة عالية وسلامة مضمونة",
       descEn:
         "Construction and maintenance of oil and gas facilities with high efficiency",
     },
@@ -91,8 +84,7 @@ export default function Services() {
       icon: <Building2 className="w-12 h-12" />,
       titleAr: "مقاولات المشاريع السكنية",
       titleEn: "Building Projects",
-      descAr:
-        "تشييد المشاريع السكنية والتجارية بمعايير عالمية وتصاميم حديثة",
+      descAr: "تشييد المشاريع السكنية والتجارية بمعايير عالمية وتصاميم حديثة",
       descEn:
         "Construction of residential and commercial projects with international standards",
     },
@@ -100,8 +92,7 @@ export default function Services() {
       icon: <Hammer className="w-12 h-12" />,
       titleAr: "صيانة العمارات",
       titleEn: "Building Maintenance",
-      descAr:
-        "خدمات صيانة شاملة للعمارات والمنشآت التجارية بشكل دوري واحترافي",
+      descAr: "خدمات صيانة شاملة للعمارات والمنشآت التجارية بشكل دوري واحترافي",
       descEn:
         "Comprehensive maintenance services for buildings and commercial facilities",
     },
@@ -118,8 +109,7 @@ export default function Services() {
       icon: <Droplet className="w-12 h-12" />,
       titleAr: "شبكات الري",
       titleEn: "Irrigation Networks",
-      descAr:
-        "تصميم وتنفيذ شبكات الري الحديثة والفعالة والموفرة للمياه",
+      descAr: "تصميم وتنفيذ شبكات الري الحديثة والفعالة والموفرة للمياه",
       descEn:
         "Design and implementation of modern and efficient irrigation networks",
     },
@@ -127,8 +117,7 @@ export default function Services() {
       icon: <Wind className="w-12 h-12" />,
       titleAr: "أنظمة الصرف",
       titleEn: "Storm Water & Drainage",
-      descAr:
-        "تطوير أنظمة صرف المياه الجوفية والعاصفة بتقنيات حديثة وفعالة",
+      descAr: "تطوير أنظمة صرف المياه الجوفية والعاصفة بتقنيات حديثة وفعالة",
       descEn:
         "Development of storm water and drainage systems with modern technology",
     },
@@ -174,11 +163,17 @@ export default function Services() {
             transition={{ duration: 0.6 }}
             className={`${isArabic ? "text-right" : "text-center"}`}
           >
-            <h1 className={`text-5xl md:text-6xl font-bold mb-6 ${isArabic ? "text-right" : "text-center"}`}>
+            <h1
+              className={`text-5xl md:text-6xl font-bold mb-6 ${isArabic ? "text-right" : "text-center"}`}
+            >
               {isArabic ? "خدماتنا المتخصصة" : "Our Specialized Services"}
             </h1>
-            <div className={`h-1 w-24 bg-tasyeer-orange mb-6 ${isArabic ? "mr-0 ml-auto" : "mx-auto"}`}></div>
-            <p className={`text-xl text-gray-100 max-w-3xl ${isArabic ? "mr-auto ml-0 text-right" : "mx-auto text-center"}`}>
+            <div
+              className={`h-1 w-24 bg-tasyeer-orange mb-6 ${isArabic ? "mr-0 ml-auto" : "mx-auto"}`}
+            ></div>
+            <p
+              className={`text-xl text-gray-100 max-w-3xl ${isArabic ? "mr-auto ml-0 text-right" : "mx-auto text-center"}`}
+            >
               {isArabic
                 ? "نقدم مجموعة شاملة من خدمات البنية التحتية والمقاولات التي تلبي احتياجات السوق الإقليمية"
                 : "We provide a comprehensive range of infrastructure and contracting services tailored to meet regional market needs"}
@@ -203,13 +198,19 @@ export default function Services() {
                 variants={itemVariants}
                 className={`group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 ${isArabic ? "border-r-4 border-l-0" : "border-l-4 border-r-0"} border-tasyeer-orange hover:border-tasyeer-maroon`}
               >
-                <div className={`text-tasyeer-maroon group-hover:text-tasyeer-orange transition-colors mb-4 ${isArabic ? "text-right" : "text-left"}`}>
+                <div
+                  className={`text-tasyeer-maroon group-hover:text-tasyeer-orange transition-colors mb-4 ${isArabic ? "text-right" : "text-left"}`}
+                >
                   {service.icon}
                 </div>
-                <h3 className={`text-xl font-bold text-tasyeer-dark-gray mb-3 ${isArabic ? "text-right" : "text-left"}`}>
+                <h3
+                  className={`text-xl font-bold text-tasyeer-dark-gray mb-3 ${isArabic ? "text-right" : "text-left"}`}
+                >
                   {isArabic ? service.titleAr : service.titleEn}
                 </h3>
-                <p className={`text-gray-600 text-sm leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
+                <p
+                  className={`text-gray-600 text-sm leading-relaxed ${isArabic ? "text-right" : "text-left"}`}
+                >
                   {isArabic ? service.descAr : service.descEn}
                 </p>
               </motion.div>
@@ -227,10 +228,14 @@ export default function Services() {
             transition={{ duration: 0.6 }}
             className={isArabic ? "text-right mb-16" : "text-center mb-16"}
           >
-            <h2 className={`text-4xl font-bold text-tasyeer-dark-gray mb-4 ${isArabic ? "text-right" : "text-center"}`}>
+            <h2
+              className={`text-4xl font-bold text-tasyeer-dark-gray mb-4 ${isArabic ? "text-right" : "text-center"}`}
+            >
               {isArabic ? "لماذا خدماتنا المتميزة؟" : "Why Our Services?"}
             </h2>
-            <div className={`h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange ${isArabic ? "mr-auto ml-0" : "mx-auto"}`}></div>
+            <div
+              className={`h-1 w-24 bg-gradient-to-r from-tasyeer-maroon to-tasyeer-orange ${isArabic ? "mr-auto ml-0" : "mx-auto"}`}
+            ></div>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -257,9 +262,7 @@ export default function Services() {
               className="bg-white p-8 rounded-lg shadow-lg"
             >
               <h3 className="text-2xl font-bold text-tasyeer-orange mb-4">
-                {isArabic
-                  ? "التكنولوجيا والابتكار"
-                  : "Technology & Innovation"}
+                {isArabic ? "التكنولوجيا والابتكار" : "Technology & Innovation"}
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 {isArabic
@@ -275,7 +278,9 @@ export default function Services() {
               className="bg-white p-8 rounded-lg shadow-lg"
             >
               <h3 className="text-2xl font-bold text-tasyeer-maroon mb-4">
-                {isArabic ? "الاستدامة البيئية" : "Environmental Sustainability"}
+                {isArabic
+                  ? "الاستدامة البيئية"
+                  : "Environmental Sustainability"}
               </h3>
               <p className="text-gray-700 leading-relaxed">
                 {isArabic

@@ -28,9 +28,9 @@ export default function Contact() {
       icon: <MapPin className="w-8 h-8" />,
       titleAr: "الموقع",
       titleEn: "Location",
-      contentAr: "صندوق البريد 56591، أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات",
-      contentEn:
-        "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Suqal Street, UAE",
+      contentAr:
+        "صندوق البريد 56591، أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات",
+      contentEn: "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Suqal Street, UAE",
       link: "#",
     },
     {
@@ -321,8 +321,12 @@ export default function Contact() {
                   <div className="flex items-center gap-4">
                     <Mail className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
                     <div>
-                      <p className="text-sm text-gray-300">head@tasyeercompany.com</p>
-                      <p className="text-sm text-gray-300">info@tasyeercompany.com</p>
+                      <p className="text-sm text-gray-300">
+                        head@tasyeercompany.com
+                      </p>
+                      <p className="text-sm text-gray-300">
+                        info@tasyeercompany.com
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -386,13 +390,35 @@ export default function Contact() {
               <div className="grid grid-cols-1 gap-4">
                 <div className="bg-white rounded-lg p-6 border-2 border-tasyeer-maroon">
                   <h3 className="text-lg font-bold text-tasyeer-maroon mb-4">
-                    {isArabic ? "أبو ظبي (المقر الرئيسي)" : "Abu Dhabi (Headquarters)"}
+                    {isArabic
+                      ? "أبو ظبي (المقر الرئيسي)"
+                      : "Abu Dhabi (Headquarters)"}
                   </h3>
                   <div className="space-y-2 text-gray-700">
-                    <p><span className="font-semibold">{isArabic ? "الهاتف:" : "Phone:"}</span> +971 2 583 0412 / +971 58 638 6526</p>
-                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> head@tasyeercompany.com</p>
-                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> info@tasyeercompany.com</p>
-                    <p><span className="font-semibold">{isArabic ? "صندوق البريد:" : "P.O. Box:"}</span> 56591</p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "الهاتف:" : "Phone:"}
+                      </span>{" "}
+                      +971 2 583 0412 / +971 58 638 6526
+                    </p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "البريد:" : "Email:"}
+                      </span>{" "}
+                      head@tasyeercompany.com
+                    </p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "البريد:" : "Email:"}
+                      </span>{" "}
+                      info@tasyeercompany.com
+                    </p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "صندوق البريد:" : "P.O. Box:"}
+                      </span>{" "}
+                      56591
+                    </p>
                   </div>
                 </div>
 
@@ -401,8 +427,18 @@ export default function Contact() {
                     {isArabic ? "دبي" : "Dubai"}
                   </h3>
                   <div className="space-y-2 text-gray-700">
-                    <p><span className="font-semibold">{isArabic ? "الهاتف:" : "Phone:"}</span> +971 4 583 3820 / +971 50 202 2208</p>
-                    <p><span className="font-semibold">{isArabic ? "البريد:" : "Email:"}</span> info@tasyeercompany.com</p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "الهاتف:" : "Phone:"}
+                      </span>{" "}
+                      +971 4 583 3820 / +971 50 202 2208
+                    </p>
+                    <p>
+                      <span className="font-semibold">
+                        {isArabic ? "البريد:" : "Email:"}
+                      </span>{" "}
+                      info@tasyeercompany.com
+                    </p>
                   </div>
                 </div>
               </div>

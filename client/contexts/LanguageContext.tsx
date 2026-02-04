@@ -1,4 +1,10 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  ReactNode,
+} from "react";
 
 type Language = "ar" | "en";
 
@@ -85,7 +91,10 @@ const translations = {
   },
 
   // Services Page
-  "services.pageTitle": { ar: "خدماتنا المتخصصة", en: "Our Specialized Services" },
+  "services.pageTitle": {
+    ar: "خدماتنا المتخصصة",
+    en: "Our Specialized Services",
+  },
   "services.intro": {
     ar: "نقدم مجموعة شاملة من خدمات البنية التحتية والمقاولات التي تلبي احتياجات السوق الإقليمية",
     en: "We provide a comprehensive range of infrastructure and contracting services tailored to meet regional market needs",
@@ -212,26 +221,44 @@ const translations = {
   },
 
   // Projects Page
-  "projects.pageTitle": { ar: "مشاريعنا المتميزة", en: "Our Featured Projects" },
+  "projects.pageTitle": {
+    ar: "مشاريعنا المتميزة",
+    en: "Our Featured Projects",
+  },
   "projects.intro": {
     ar: "استعرض مجموعة مختارة من مشاريعنا الناجحة والمكتملة بنجاح",
     en: "Explore a selection of our successful and completed projects",
   },
   "projects.filterAll": { ar: "جميع المشاريع", en: "All Projects" },
-  "projects.filterRoads": { ar: "الطرق والبنية التحتية", en: "Roads & Infrastructure" },
-  "projects.filterBuilding": { ar: "المشاريع السكنية", en: "Building Projects" },
-  "projects.filterLandscape": { ar: "تنسيق المناظر الطبيعية", en: "Landscaping" },
+  "projects.filterRoads": {
+    ar: "الطرق والبنية التحتية",
+    en: "Roads & Infrastructure",
+  },
+  "projects.filterBuilding": {
+    ar: "المشاريع السكنية",
+    en: "Building Projects",
+  },
+  "projects.filterLandscape": {
+    ar: "تنسيق المناظر الطبيعية",
+    en: "Landscaping",
+  },
   "projects.filterWater": { ar: "الأنظمة المائية", en: "Water Systems" },
 
   // Policies Page
-  "policies.pageTitle": { ar: "السياسات والشهادات", en: "Policies & Certificates" },
+  "policies.pageTitle": {
+    ar: "السياسات والشهادات",
+    en: "Policies & Certificates",
+  },
   "policies.intro": {
     ar: "نعتمد على سياسات صارمة للصحة والسلامة والبيئة والجودة وأعلى معايير الامتثال الدولية",
     en: "We adhere to strict HSE, Quality, and Sustainability policies with highest international compliance standards",
   },
   "policies.hse": { ar: "سياسات الصحة والسلامة والبيئة", en: "HSE Policies" },
   "policies.quality": { ar: "سياسات الجودة", en: "Quality Policies" },
-  "policies.sustainability": { ar: "الاستدامة والمسؤولية الاجتماعية", en: "Sustainability & CSR" },
+  "policies.sustainability": {
+    ar: "الاستدامة والمسؤولية الاجتماعية",
+    en: "Sustainability & CSR",
+  },
   "policies.certificates": { ar: "الشهادات والاعتمادات", en: "Certifications" },
   "policies.iso9001": { ar: "ISO 9001", en: "ISO 9001" },
   "policies.iso14001": { ar: "ISO 14001", en: "ISO 14001" },
@@ -268,7 +295,10 @@ const translations = {
   "footer.about": { ar: "عن تسيير", en: "About TASYEER" },
   "footer.quicklinks": { ar: "روابط سريعة", en: "Quick Links" },
   "footer.contact": { ar: "معلومات الاتصال", en: "Contact Information" },
-  "footer.location": { ar: "أبو ظبي - ايكاد 1 - شارع الصقلاوي", en: "Abu Dhabi - ICAD1 - Suqal Street" },
+  "footer.location": {
+    ar: "أبو ظبي - ايكاد 1 - شارع الصقلاوي",
+    en: "Abu Dhabi - ICAD1 - Suqal Street",
+  },
   "footer.phone": { ar: "الهاتف", en: "Phone" },
   "footer.email": { ar: "البريد الإلكتروني", en: "Email" },
   "footer.rights": { ar: "جميع الحقوق محفوظة", en: "All Rights Reserved" },
@@ -277,7 +307,7 @@ const translations = {
 type TranslationKey = keyof typeof translations;
 
 const LanguageContext = createContext<LanguageContextType | undefined>(
-  undefined
+  undefined,
 );
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
@@ -310,7 +340,13 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 
   return (
     <LanguageContext.Provider
-      value={{ language, setLanguage: handleSetLanguage, isArabic, isEnglish, t }}
+      value={{
+        language,
+        setLanguage: handleSetLanguage,
+        isArabic,
+        isEnglish,
+        t,
+      }}
     >
       {children}
     </LanguageContext.Provider>

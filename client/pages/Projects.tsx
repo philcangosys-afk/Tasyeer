@@ -11,13 +11,16 @@ export default function Projects() {
     // Recent Projects
     {
       id: 1,
-      titleAr: "أعمال الرصف للمناطق الداخلية والخارجية لمبنى إدارة ترحيل المخالفين - السويحة",
-      titleEn: "Paving works for the external and internal areas of the Deportation and Removal of Violators Department building - Suwaihan",
+      titleAr:
+        "أعمال الرصف للمناطق الداخلية والخارجية لمبنى إدارة ترحيل المخالفين - السويحة",
+      titleEn:
+        "Paving works for the external and internal areas of the Deportation and Removal of Violators Department building - Suwaihan",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
       clientAr: "الهيئة الاتحادية للهوية والجنسية والجمارك وأمن الحدود - ICP",
-      clientEn: "The Federal Authority for Identity and Citizenship, Customs and Ports Security - ICP",
+      clientEn:
+        "The Federal Authority for Identity and Citizenship, Customs and Ports Security - ICP",
       yearAr: "2024",
       yearEn: "2024",
       descAr:
@@ -31,7 +34,8 @@ export default function Projects() {
     {
       id: 2,
       titleAr: "إعادة توطين شبكات الري وأعمال HDD، MBZ - Z29 لتطوير أبو ظبي",
-      titleEn: "Irrigation Relocation & HDD Works, MBZ - Z29 Development for The Construction Of Infrastructure and Streetscape in Abu Dhabi",
+      titleEn:
+        "Irrigation Relocation & HDD Works, MBZ - Z29 Development for The Construction Of Infrastructure and Streetscape in Abu Dhabi",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
@@ -50,7 +54,8 @@ export default function Projects() {
     {
       id: 3,
       titleAr: "بناء الطرق والحواجز الخرسانية تحت الجسر في أبو ظبي، سويحان",
-      titleEn: "Construction of Roads and Concrete Barriers Under the Bridge In Abu Dhabi, Swehan",
+      titleEn:
+        "Construction of Roads and Concrete Barriers Under the Bridge In Abu Dhabi, Swehan",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
@@ -77,8 +82,7 @@ export default function Projects() {
       clientEn: "Multiple",
       yearAr: "2024",
       yearEn: "2024",
-      descAr:
-        "بناء البنية التحتية والطرق الشاملة في منطقة MBZ City One C",
+      descAr: "بناء البنية التحتية والطرق الشاملة في منطقة MBZ City One C",
       descEn:
         "Construction of comprehensive roads and infrastructure in MBZ City One C area",
       image:
@@ -106,8 +110,10 @@ export default function Projects() {
     },
     {
       id: 6,
-      titleAr: "بناء البنية التحتية وتنسيق المناظر الطبيعية لمحطة ADNOC في أبو ظبي",
-      titleEn: "Construction of Infrastructure and Hardscaping for the ADNOC Station in Abu Dhabi City, Khalidiya",
+      titleAr:
+        "بناء البنية التحتية وتنسيق المناظر الطبيعية لمحطة ADNOC في أبو ظبي",
+      titleEn:
+        "Construction of Infrastructure and Hardscaping for the ADNOC Station in Abu Dhabi City, Khalidiya",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
@@ -127,7 +133,8 @@ export default function Projects() {
     {
       id: 7,
       titleAr: "Force10 United Arab Emirates LLC",
-      titleEn: "Force10 United Arab Emirates LLC - Project Demolition Existing Railway Service Station and Design and Build works",
+      titleEn:
+        "Force10 United Arab Emirates LLC - Project Demolition Existing Railway Service Station and Design and Build works",
       categoryAr: "المشاريع المكتملة",
       categoryEn: "Completed Projects",
       category: "completed",
@@ -155,8 +162,7 @@ export default function Projects() {
       clientEn: "Ghantoot Transport & General Contracting LLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع بناء الطرق والبنية التحتية وأعمال تنسيق المناظر الطبيعية",
+      descAr: "مشروع بناء الطرق والبنية التحتية وأعمال تنسيق المناظر الطبيعية",
       descEn:
         "Construction of Roads, Infrastructure landscaping works at Mohammed Bin Zayed City, Zone C",
       descValue: "AED 4 Million",
@@ -175,8 +181,7 @@ export default function Projects() {
       clientEn: "RMB General Contracting & Transporting LLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع بناء الطرق والبنية التحتية في مدينة محمد بن زايد",
+      descAr: "مشروع بناء الطرق والبنية التحتية في مدينة محمد بن زايد",
       descEn:
         "Construction of Roads, Infrastructure landscaping works at Mohammed Bin Zayed City, Zone C",
       descValue: "AED 12 Million",
@@ -195,8 +200,7 @@ export default function Projects() {
       clientEn: "Al Sahraa Freight Transport & Logistics LLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع تحسين وترقية تقاطع الفجيرة للطريق والصرف",
+      descAr: "مشروع تحسين وترقية تقاطع الفجيرة للطريق والصرف",
       descEn:
         "Improvement and Upgrading of the Intersection of Fujairah Port Road, Yaas Island Port Road, CMW-21022-C001-Maintenance Works Dubai",
       descValue: "AED 4 Million",
@@ -215,8 +219,7 @@ export default function Projects() {
       clientEn: "Tripoli Contracting & Maintenance LLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع سوق الحرير - المرحلة الأولى",
+      descAr: "مشروع سوق الحرير - المرحلة الأولى",
       descEn:
         "Project: Al Reef Mall - Phase II Development, Refurbishment & New BExpansion in Road and Landscape",
       descValue: "AED 5 Million",
@@ -235,8 +238,7 @@ export default function Projects() {
       clientEn: "Al Geemi & Partners Contracting LLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع مدينة الرياض جنوب - البنية التحتية والشارع",
+      descAr: "مشروع مدينة الرياض جنوب - البنية التحتية والشارع",
       descEn:
         "J262-Riyad City South Phase - Infrastructure & Streetscape, Construction of Roads, Infrastructure and Public Realm",
       descValue: "AED 3 Million",
@@ -255,8 +257,7 @@ export default function Projects() {
       clientEn: "Al Altern Transport & Gen. Cont. Est",
       yearAr: "2022",
       yearEn: "2022",
-      descAr:
-        "مشروع تحسين الطرق والصيانة في مدينة محمد بن زايد",
+      descAr: "مشروع تحسين الطرق والصيانة في مدينة محمد بن زايد",
       descEn:
         "Road improvement and maintenance works, Madinat Zayed 3187006. Maintenance of Internal Roads and Parking lots for the Armed Forces Sailing",
       descValue: "AED 3.1 Million",
@@ -275,8 +276,7 @@ export default function Projects() {
       clientEn: "Gulf Contractors Company PLC",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع بناء الشارع والمناظر الطبيعية والحدائق",
+      descAr: "مشروع بناء الشارع والمناظر الطبيعية والحدائق",
       descEn:
         "Construction of StreetScape, Landscape & Parks work for Al Saad Emiriti Housing Community",
       descValue: "AED 0.9 Million",
@@ -295,8 +295,7 @@ export default function Projects() {
       clientEn: "Western Bainoona Group",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع MBZ - Z29 لتطوير البنية التحتية",
+      descAr: "مشروع MBZ - Z29 لتطوير البنية التحتية",
       descEn:
         "Project: M BZ-Z29 Development for the construction of infrastructure",
       descValue: "AED 7 Million",
@@ -315,10 +314,8 @@ export default function Projects() {
       clientEn: "Domas Contracting Company",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "مشروع طريق الجزيرة الريم",
-      descEn:
-        "Project: Al Reem Island Road Maintenance works",
+      descAr: "مشروع طريق الجزيرة الريم",
+      descEn: "Project: Al Reem Island Road Maintenance works",
       descValue: "AED 0.7 Million",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F9e6239d45f0d467f804c237d66fd4158?format=webp",

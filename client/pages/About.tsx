@@ -12,28 +12,32 @@ export default function About() {
       titleAr: "الكفاءة والابتكار",
       titleEn: "Excellence & Innovation",
       descAr: "نسعى للتميز في كل مشروع ونحتضن الابتكار كمحرك للنجاح.",
-      descEn: "We strive for excellence in every project and embrace innovation as a driver of success.",
+      descEn:
+        "We strive for excellence in every project and embrace innovation as a driver of success.",
     },
     {
       icon: <Award className="w-12 h-12" />,
       titleAr: "الجودة والمهنية",
       titleEn: "Quality & Professionalism",
       descAr: "نحافظ على أعلى معايير الجودة والمهنية في جميع عملياتنا.",
-      descEn: "We maintain the highest standards of quality and professionalism in all our operations.",
+      descEn:
+        "We maintain the highest standards of quality and professionalism in all our operations.",
     },
     {
       icon: <Heart className="w-12 h-12" />,
       titleAr: "النزاهة والمسؤولية",
       titleEn: "Integrity & Responsibility",
       descAr: "نتعامل مع النزاهة والشفافية والمسؤولية الاجتماعية.",
-      descEn: "We conduct business with integrity, transparency, and social responsibility.",
+      descEn:
+        "We conduct business with integrity, transparency, and social responsibility.",
     },
     {
       icon: <Users className="w-12 h-12" />,
       titleAr: "فريق متحمس",
       titleEn: "Dedicated Team",
       descAr: "فريقنا متخصص ومكرس لتحقيق الأهداف والتطور المستمر.",
-      descEn: "Our team is specialized and dedicated to achieving goals and continuous improvement.",
+      descEn:
+        "Our team is specialized and dedicated to achieving goals and continuous improvement.",
     },
   ];
 
@@ -95,7 +99,9 @@ export default function About() {
               </h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                  <span className="text-tasyeer-orange text-2xl font-bold">
+                    ✓
+                  </span>
                   <span className="text-lg">
                     {isArabic
                       ? "أكثر من 50 مشروع مكتمل بنجاح"
@@ -103,7 +109,9 @@ export default function About() {
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                  <span className="text-tasyeer-orange text-2xl font-bold">
+                    ✓
+                  </span>
                   <span className="text-lg">
                     {isArabic
                       ? "شراكات مع أكبر الشركات في الإمارات"
@@ -111,7 +119,9 @@ export default function About() {
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                  <span className="text-tasyeer-orange text-2xl font-bold">
+                    ✓
+                  </span>
                   <span className="text-lg">
                     {isArabic
                       ? "شهادات ISO 9001, 14001, 45001"
@@ -119,11 +129,11 @@ export default function About() {
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-tasyeer-orange text-2xl font-bold">✓</span>
+                  <span className="text-tasyeer-orange text-2xl font-bold">
+                    ✓
+                  </span>
                   <span className="text-lg">
-                    {isArabic
-                      ? "شهادة ICV بنسبة 50%"
-                      : "50% ICV Certificate"}
+                    {isArabic ? "شهادة ICV بنسبة 50%" : "50% ICV Certificate"}
                   </span>
                 </li>
               </ul>
@@ -256,7 +266,9 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
                 <h3 className="text-2xl font-bold mb-4">
-                  {isArabic ? "الابتكار والاستدامة" : "Innovation & Sustainability"}
+                  {isArabic
+                    ? "الابتكار والاستدامة"
+                    : "Innovation & Sustainability"}
                 </h3>
                 <p className="text-lg leading-relaxed">
                   {isArabic
@@ -297,7 +309,9 @@ export default function About() {
                   <span className="text-2xl">🏢</span>
                 </div>
                 <h3 className="text-2xl font-bold">
-                  {isArabic ? "أبو ظبي (مقر رئيسي)" : "Abu Dhabi (Headquarters)"}
+                  {isArabic
+                    ? "أبو ظبي (مقر رئيسي)"
+                    : "Abu Dhabi (Headquarters)"}
                 </h3>
               </div>
               <div className="space-y-4">
@@ -375,7 +389,9 @@ export default function About() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="text-4xl mb-4">📋</div>
                 <h4 className="font-bold text-tasyeer-dark-gray mb-2">
-                  {isArabic ? "الاستشارات الهندسية" : "Engineering Consultations"}
+                  {isArabic
+                    ? "الاستشارات الهندسية"
+                    : "Engineering Consultations"}
                 </h4>
                 <p className="text-gray-600 text-sm">
                   {isArabic

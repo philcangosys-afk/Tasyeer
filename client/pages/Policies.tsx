@@ -216,7 +216,9 @@ export default function Policies() {
           >
             {isArabic ? policy.titleAr : policy.titleEn}
           </h3>
-          <p className={`text-gray-700 leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
+          <p
+            className={`text-gray-700 leading-relaxed ${isArabic ? "text-right" : "text-left"}`}
+          >
             {isArabic ? policy.contentAr : policy.contentEn}
           </p>
         </motion.div>
@@ -293,7 +295,9 @@ export default function Policies() {
                   >
                     {isArabic ? cert.titleAr : cert.titleEn}
                   </h3>
-                  <p className={`text-gray-600 text-xs leading-relaxed ${isArabic ? "text-right" : "text-left"}`}>
+                  <p
+                    className={`text-gray-600 text-xs leading-relaxed ${isArabic ? "text-right" : "text-left"}`}
+                  >
                     {isArabic ? cert.descAr : cert.descEn}
                   </p>
                 </div>

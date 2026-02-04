@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { MapPin, Phone, Mail, Linkedin, Facebook, Instagram } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Linkedin,
+  Facebook,
+  Instagram,
+} from "lucide-react";
 
 export const Footer = () => {
   const { t, isArabic } = useLanguage();
@@ -11,7 +18,9 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-cairo text-lg font-bold mb-4">{t("footer.about")}</h3>
+            <h3 className="font-cairo text-lg font-bold mb-4">
+              {t("footer.about")}
+            </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
               {isArabic
                 ? "تسيير هي شركة متخصصة في البنية التحتية والطرق والمناظر الطبيعية، تقدم حلولاً احترافية وعالية الجودة للمشاريع التجارية والحكومية."
@@ -21,7 +30,9 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-cairo text-lg font-bold mb-4">{t("footer.quicklinks")}</h3>
+            <h3 className="font-cairo text-lg font-bold mb-4">
+              {t("footer.quicklinks")}
+            </h3>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -60,7 +71,9 @@ export const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="font-cairo text-lg font-bold mb-4">{t("nav.services")}</h3>
+            <h3 className="font-cairo text-lg font-bold mb-4">
+              {t("nav.services")}
+            </h3>
             <ul className="space-y-2">
               <li>
                 <a
@@ -99,21 +112,32 @@ export const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-cairo text-lg font-bold mb-4">{t("footer.contact")}</h3>
+            <h3 className="font-cairo text-lg font-bold mb-4">
+              {t("footer.contact")}
+            </h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
-                <MapPin size={20} className="text-tasyeer-orange flex-shrink-0 mt-0.5" />
+                <MapPin
+                  size={20}
+                  className="text-tasyeer-orange flex-shrink-0 mt-0.5"
+                />
                 <span className="text-gray-300">{t("footer.location")}</span>
               </li>
               <li className="flex items-start gap-3">
-                <Phone size={20} className="text-tasyeer-orange flex-shrink-0 mt-0.5" />
+                <Phone
+                  size={20}
+                  className="text-tasyeer-orange flex-shrink-0 mt-0.5"
+                />
                 <div className="flex flex-col">
                   <span className="text-gray-300">+971 2 583 0412</span>
                   <span className="text-gray-300">+971 58 638 6526</span>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <Mail size={20} className="text-tasyeer-orange flex-shrink-0 mt-0.5" />
+                <Mail
+                  size={20}
+                  className="text-tasyeer-orange flex-shrink-0 mt-0.5"
+                />
                 <div className="flex flex-col">
                   <span className="text-gray-300">head@tasyeercompany.com</span>
                   <span className="text-gray-300">info@tasyeercompany.com</span>

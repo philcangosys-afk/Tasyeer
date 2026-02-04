@@ -9,52 +9,52 @@ export const ClientsSection = () => {
     {
       name: "ALDAR",
       nameAr: "الدار",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F96f3b329421448a9accd372436116683?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F96f3b329421448a9accd372436116683?format=webp",
     },
     {
       name: "Department of Urban Planning",
       nameAr: "بلدية العين",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa0a19e72270d4ba687a7d4bd369a84e3?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa0a19e72270d4ba687a7d4bd369a84e3?format=webp",
     },
     {
       name: "ADNOC",
       nameAr: "أدنوك",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc72bb74aca464b3fb1319896ffc73989?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc72bb74aca464b3fb1319896ffc73989?format=webp",
     },
     {
       name: "MDON",
       nameAr: "مدن",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe7db2a890df64d99a4fe82aefa66cdca?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe7db2a890df64d99a4fe82aefa66cdca?format=webp",
     },
     {
       name: "KIZAD Group",
       nameAr: "مجموعة كيزاد",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fd63f216eb32f4ff19393505bffbb7fa4?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fd63f216eb32f4ff19393505bffbb7fa4?format=webp",
     },
     {
       name: "National Guard",
       nameAr: "الحرس الوطني",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F4babb0fd81eb461986a39ff0dab746e6?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F4babb0fd81eb461986a39ff0dab746e6?format=webp",
     },
     {
       name: "Presidential Court",
       nameAr: "ديوان الرئاسة",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F79c268e165bd4a9d817d40bb1b07b90b?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F79c268e165bd4a9d817d40bb1b07b90b?format=webp",
     },
     {
       name: "RTA",
       nameAr: "هيئة الطرق والمواصلات",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F48f5b8c7f11a4729a9418a22440e5458?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F48f5b8c7f11a4729a9418a22440e5458?format=webp",
     },
     {
       name: "Ministry of Energy & Infrastructure",
       nameAr: "وزارة الطاقة والبنية التحتية",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc4810e81a22b499b968fd5b8a1f07240?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fc4810e81a22b499b968fd5b8a1f07240?format=webp",
     },
     {
       name: "Command of Military Works",
       nameAr: "هيئة الأشغال العسكرية",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F635ae0716ee24c3cbd7db6bd8a932952?format=webp"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F635ae0716ee24c3cbd7db6bd8a932952?format=webp",
     },
   ];
 
