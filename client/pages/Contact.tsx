@@ -30,7 +30,7 @@ export default function Contact() {
       titleEn: "Location",
       contentAr:
         "صندوق البريد 56591، أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات",
-      contentEn: "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Suqal Street, UAE",
+      contentEn: "P.O. Box No. 56591, Abu Dhabi - ICAD1 - Al Saqlawi St, UAE",
       link: "#",
     },
     {
@@ -307,7 +307,7 @@ export default function Contact() {
                       <p className="text-sm text-gray-300">
                         {isArabic
                           ? "أبو ظبي - ايكاد 1 - شارع الصقلاوي"
-                          : "Abu Dhabi - ICAD1 - Suqal Street"}
+                          : "Abu Dhabi - ICAD1 - Al Saqlawi St"}
                       </p>
                     </div>
                   </div>
