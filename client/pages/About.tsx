@@ -322,7 +322,7 @@ export default function About() {
                   <p className="text-lg">
                     {isArabic
                       ? "أبو ظبي - ايكاد 1 - شارع الصقلاوي، الإمارات العربية المتحدة"
-                      : "Abu Dhabi - ICAD1 - Suqal Street, UAE"}
+                      : "Abu Dhabi - ICAD1 - Al Saqlawi St, UAE"}
                   </p>
                 </div>
                 <div className="border-t border-white/20 pt-4">
