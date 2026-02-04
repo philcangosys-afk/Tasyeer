@@ -141,7 +141,7 @@ export default function Projects() {
         "Project Demolition Existing Railway Service Station and Design and Build works to construct Khalidiyah Hub service station",
       descValue: "AED 5.5 Million",
       image:
-        "https://images.pexels.com/photos/6726785/pexels-photo-6726785.jpeg",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fe8520346bcfe42b68e11391ac1f52612?format=webp",
       status: "Completed",
     },
     {
