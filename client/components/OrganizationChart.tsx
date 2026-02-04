@@ -417,108 +417,35 @@ export const OrganizationChart = () => {
         {/* Mobile Chart */}
         <div className="md:hidden overflow-x-auto pb-4">
           <div className="min-w-max inline-flex flex-col gap-4 px-2 scale-[0.85] origin-top">
-            <div className="flex justify-center">
-              <div className="w-32">
-                <ChartBox
-                  position={positions.find((p) => p.id === "chairman")!}
-                />
-              </div>
-            </div>
-
-            <div className="flex justify-center">
-              <div className="w-32">
-                <ChartBox position={positions.find((p) => p.id === "gm")!} />
-              </div>
-            </div>
+            <div className="flex justify-center">{renderBox("owner", "w-40")}</div>
 
             <div className="flex justify-center gap-3">
-              <div className="w-28">
-                <ChartBox
-                  position={positions.find((p) => p.id === "secretary")!}
-                />
-              </div>
-              <div className="w-28">
-                <ChartBox position={positions.find((p) => p.id === "hr")!} />
-              </div>
-            </div>
-
-            <div className="flex justify-center gap-2 flex-wrap">
-              <div className="w-24">
-                <ChartBox position={positions.find((p) => p.id === "qty")!} />
-              </div>
-              <div className="w-24">
-                <ChartBox position={positions.find((p) => p.id === "qa")!} />
-              </div>
-              <div className="w-24">
-                <ChartBox position={positions.find((p) => p.id === "pe")!} />
-              </div>
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "accountant")!}
-                />
-              </div>
-            </div>
-
-            <div className="flex justify-center gap-3 flex-wrap">
-              <div className="flex flex-col gap-4">
-                <div className="w-24">
-                  <ChartBox
-                    position={positions.find((p) => p.id === "documents")!}
-                  />
+              {["coo", "cfo", "vps"].map((id) => (
+                <div key={id} className="w-32">
+                  <ChartBox position={getPositionById(id)} />
                 </div>
-                <div className="w-24">
-                  <ChartBox
-                    position={positions.find((p) => p.id === "draftsman")!}
-                  />
-                </div>
-              </div>
-              <div className="w-24">
-                <ChartBox position={positions.find((p) => p.id === "se")!} />
-              </div>
+              ))}
             </div>
 
-            <div className="flex justify-center gap-3 flex-wrap">
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "foreman")!}
-                />
-              </div>
-              <div className="w-24">
-                <ChartBox position={positions.find((p) => p.id === "ls")!} />
-              </div>
+            <div className="flex justify-center gap-4">
+              {renderBox("operations", "w-36")}
+              {renderBox("specialized", "w-36")}
             </div>
 
-            <div className="flex justify-center gap-3 flex-wrap">
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "siteForeman")!}
-                />
+            <div className="flex justify-center gap-8">
+              <div className="flex gap-4">
+                {operationsColumns.map((col) => (
+                  <div key={col.headerId}>
+                    {renderColumn(col.headerId, col.childIds, "w-28")}
+                  </div>
+                ))}
               </div>
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "assistSurveyor")!}
-                />
-              </div>
-            </div>
-
-            <div className="flex justify-center gap-3 flex-wrap">
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "operators")!}
-                />
-              </div>
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "chainmen")!}
-                />
-              </div>
-            </div>
-
-            <div className="flex justify-center">
-              <div className="w-24">
-                <ChartBox
-                  position={positions.find((p) => p.id === "helpers")!}
-                />
+              <div className="flex gap-4">
+                {specializedColumns.map((col) => (
+                  <div key={col.headerId}>
+                    {renderColumn(col.headerId, col.childIds, "w-28")}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -532,118 +459,38 @@ export const OrganizationChart = () => {
           variants={containerVariants}
           viewport={{ once: true, margin: "-50px" }}
         >
-          <div className="min-w-max inline-flex flex-col gap-6 md:gap-12 px-2 md:px-4">
-            {/* Level 0 - Chairman */}
+          <div className="min-w-max inline-flex flex-col gap-8 md:gap-12 px-2 md:px-4">
             <div className="flex justify-center">
-              <div className="w-40 sm:w-48 md:w-56">
-                <ChartBox
-                  position={positions.find((p) => p.id === "chairman")!}
-                />
-              </div>
+              {renderBox("owner", "w-56 md:w-64")}
             </div>
 
-            {/* Level 1 - General Manager */}
-            <div className="flex justify-center">
-              <div className="w-40 sm:w-48 md:w-56">
-                <ChartBox position={positions.find((p) => p.id === "gm")!} />
-              </div>
-            </div>
-
-            {/* Level 2 - Secretary and HR */}
-            <div className="flex justify-center gap-3 sm:gap-6 md:gap-16">
-              <div className="w-36 sm:w-40 md:w-48">
-                <ChartBox
-                  position={positions.find((p) => p.id === "secretary")!}
-                />
-              </div>
-              <div className="w-36 sm:w-40 md:w-48">
-                <ChartBox position={positions.find((p) => p.id === "hr")!} />
-              </div>
-            </div>
-
-            {/* Level 3 - Four Managers */}
-            <div className="flex justify-center gap-2 sm:gap-4 md:gap-8 flex-wrap">
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox position={positions.find((p) => p.id === "qty")!} />
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox position={positions.find((p) => p.id === "qa")!} />
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox position={positions.find((p) => p.id === "pe")!} />
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "accountant")!}
-                />
-              </div>
-            </div>
-
-            {/* Level 4 - Documentation and Site */}
-            <div className="flex justify-center gap-3 sm:gap-6 md:gap-12 flex-wrap">
-              <div className="flex flex-col gap-4 sm:gap-6 md:gap-8">
-                <div className="w-32 sm:w-36 md:w-40">
-                  <ChartBox
-                    position={positions.find((p) => p.id === "documents")!}
-                  />
+            <div className="flex justify-center gap-6 md:gap-10">
+              {["coo", "cfo", "vps"].map((id) => (
+                <div key={id} className="w-40 md:w-48">
+                  <ChartBox position={getPositionById(id)} />
                 </div>
-                <div className="w-32 sm:w-36 md:w-40">
-                  <ChartBox
-                    position={positions.find((p) => p.id === "draftsman")!}
-                  />
-                </div>
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox position={positions.find((p) => p.id === "se")!} />
-              </div>
+              ))}
             </div>
 
-            {/* Level 5 - Foremen */}
-            <div className="flex justify-center gap-3 sm:gap-6 md:gap-12 flex-wrap">
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "foreman")!}
-                />
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox position={positions.find((p) => p.id === "ls")!} />
-              </div>
+            <div className="flex justify-center gap-8 md:gap-16">
+              {renderBox("operations", "w-52 md:w-60")}
+              {renderBox("specialized", "w-52 md:w-60")}
             </div>
 
-            {/* Level 6 - Field Workers */}
-            <div className="flex justify-center gap-3 sm:gap-6 md:gap-12 flex-wrap">
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "siteForeman")!}
-                />
+            <div className="flex justify-center gap-12">
+              <div className="flex gap-8">
+                {operationsColumns.map((col) => (
+                  <div key={col.headerId}>
+                    {renderColumn(col.headerId, col.childIds, "w-32 md:w-36")}
+                  </div>
+                ))}
               </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "assistSurveyor")!}
-                />
-              </div>
-            </div>
-
-            {/* Level 7 - Operators and Helpers */}
-            <div className="flex justify-center gap-3 sm:gap-6 md:gap-12 flex-wrap">
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "operators")!}
-                />
-              </div>
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "chainmen")!}
-                />
-              </div>
-            </div>
-
-            {/* Level 8 - Helpers */}
-            <div className="flex justify-center">
-              <div className="w-32 sm:w-36 md:w-40">
-                <ChartBox
-                  position={positions.find((p) => p.id === "helpers")!}
-                />
+              <div className="flex gap-8">
+                {specializedColumns.map((col) => (
+                  <div key={col.headerId}>
+                    {renderColumn(col.headerId, col.childIds, "w-32 md:w-36")}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
