@@ -39,7 +39,7 @@ export const Header = () => {
                 </svg>
               </div>
             </div>
-            <span className="text-tasyeer-maroon">Tasyeer</span>
+            <span className="text-tasyeer-maroon">TASYEER</span>
           </Link>
 
           {/* Desktop Navigation */}
