@@ -372,7 +372,7 @@ export default function About() {
                   <div className="space-y-1 force-ltr">
                     <p className="text-lg">+971 4 583 3820</p>
                     <p className="text-lg">+971 50 202 2208</p>
-                    <p className="text-lg">info@tasyeercompany.com</p>
+                    <p className="text-lg">headx@tasyeercompany.com</p>
                   </div>
                 </div>
               </div>
