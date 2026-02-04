@@ -25,7 +25,7 @@ export default function Projects() {
       descEn:
         "Comprehensive paving works for external and internal areas with highest quality standards",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa1d9e9f8f75d4d76b9e2b4a1ba6eb3e1?format=webp",
+        "https://images.pexels.com/photos/9843588/pexels-photo-9843588.jpeg",
       status: "Ongoing",
     },
     {
@@ -44,7 +44,7 @@ export default function Projects() {
       descEn:
         "Irrigation relocation and HDD works for Z29 development infrastructure project",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F4c3a08cda6294ecdabb84fc4c2334998?format=webp",
+        "https://images.pexels.com/photos/29274530/pexels-photo-29274530.jpeg",
       status: "Ongoing",
     },
     {
@@ -63,7 +63,7 @@ export default function Projects() {
       descEn:
         "Construction of advanced roads and concrete barriers under bridge with highest safety standards",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F8ab317fc240745c6a98ce11513b875b4?format=webp",
+        "https://images.pexels.com/photos/33016636/pexels-photo-33016636.jpeg",
       status: "Completed",
     },
     {
@@ -82,7 +82,7 @@ export default function Projects() {
       descEn:
         "Construction of comprehensive roads and infrastructure in MBZ City One C area",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7083dbf580ed4ca89e3ab12c977a8a6c?format=webp",
+        "https://images.pexels.com/photos/35846752/pexels-photo-35846752.jpeg",
       status: "Ongoing",
     },
     {
@@ -101,7 +101,7 @@ export default function Projects() {
       descEn:
         "Construction of mechanically stabilized earth retaining wall with high specifications",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F376d72231cd14810a59dd7a2dfa62330?format=webp",
+        "https://images.pexels.com/photos/29062647/pexels-photo-29062647.jpeg",
       status: "Completed",
     },
     {
@@ -120,7 +120,7 @@ export default function Projects() {
       descEn:
         "Infrastructure and hardscaping construction for ADNOC station in Khalidiya",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa1d9e9f8f75d4d76b9e2b4a1ba6eb3e1?format=webp",
+        "https://images.pexels.com/photos/26200673/pexels-photo-26200673.jpeg",
       status: "Ongoing",
     },
     // Completed Projects
@@ -141,7 +141,7 @@ export default function Projects() {
         "Project Demolition Existing Railway Service Station and Design and Build works to construct Khalidiyah Hub service station",
       descValue: "AED 5.5 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa1d9e9f8f75d4d76b9e2b4a1ba6eb3e1?format=webp",
+        "https://images.pexels.com/photos/6726785/pexels-photo-6726785.jpeg",
       status: "Completed",
     },
     {
@@ -161,7 +161,7 @@ export default function Projects() {
         "Construction of Roads, Infrastructure landscaping works at Mohammed Bin Zayed City, Zone C",
       descValue: "AED 4 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F4c3a08cda6294ecdabb84fc4c2334998?format=webp",
+        "https://images.pexels.com/photos/5969135/pexels-photo-5969135.jpeg",
       status: "Completed",
     },
     {
@@ -181,7 +181,7 @@ export default function Projects() {
         "Construction of Roads, Infrastructure landscaping works at Mohammed Bin Zayed City, Zone C",
       descValue: "AED 12 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F8ab317fc240745c6a98ce11513b875b4?format=webp",
+        "https://images.pexels.com/photos/34382364/pexels-photo-34382364.jpeg",
       status: "Completed",
     },
     {
@@ -201,7 +201,7 @@ export default function Projects() {
         "Improvement and Upgrading of the Intersection of Fujairah Port Road, Yaas Island Port Road, CMW-21022-C001-Maintenance Works Dubai",
       descValue: "AED 4 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7083dbf580ed4ca89e3ab12c977a8a6c?format=webp",
+        "https://images.pexels.com/photos/1009926/pexels-photo-1009926.jpeg",
       status: "Completed",
     },
     {
@@ -221,7 +221,7 @@ export default function Projects() {
         "Project: Al Reef Mall - Phase II Development, Refurbishment & New BExpansion in Road and Landscape",
       descValue: "AED 5 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F376d72231cd14810a59dd7a2dfa62330?format=webp",
+        "https://images.pexels.com/photos/35300832/pexels-photo-35300832.jpeg",
       status: "Completed",
     },
     {
@@ -241,7 +241,7 @@ export default function Projects() {
         "J262-Riyad City South Phase - Infrastructure & Streetscape, Construction of Roads, Infrastructure and Public Realm",
       descValue: "AED 3 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa1d9e9f8f75d4d76b9e2b4a1ba6eb3e1?format=webp",
+        "https://images.pexels.com/photos/32598872/pexels-photo-32598872.jpeg",
       status: "Completed",
     },
     {
@@ -261,7 +261,7 @@ export default function Projects() {
         "Road improvement and maintenance works, Madinat Zayed 3187006. Maintenance of Internal Roads and Parking lots for the Armed Forces Sailing",
       descValue: "AED 3.1 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F4c3a08cda6294ecdabb84fc4c2334998?format=webp",
+        "https://images.pexels.com/photos/33029854/pexels-photo-33029854.jpeg",
       status: "Completed",
     },
     {
@@ -281,7 +281,7 @@ export default function Projects() {
         "Construction of StreetScape, Landscape & Parks work for Al Saad Emiriti Housing Community",
       descValue: "AED 0.9 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F8ab317fc240745c6a98ce11513b875b4?format=webp",
+        "https://images.pexels.com/photos/3964796/pexels-photo-3964796.jpeg",
       status: "Completed",
     },
     {
@@ -301,7 +301,7 @@ export default function Projects() {
         "Project: M BZ-Z29 Development for the construction of infrastructure",
       descValue: "AED 7 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F376d72231cd14810a59dd7a2dfa62330?format=webp",
+        "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg",
       status: "Completed",
     },
     {
@@ -321,7 +321,7 @@ export default function Projects() {
         "Project: Al Reem Island Road Maintenance works",
       descValue: "AED 0.7 Million",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F7083dbf580ed4ca89e3ab12c977a8a6c?format=webp",
+        "https://images.pexels.com/photos/17404789/pexels-photo-17404789.jpeg",
       status: "Completed",
     },
   ];
