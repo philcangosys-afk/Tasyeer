@@ -187,18 +187,18 @@ export const OrganizationChart = () => {
       >
         <div
           className={`
-            rounded-lg p-3 md:p-4 text-center font-bold transition-all duration-300
+            rounded-lg text-center font-bold transition-all duration-300
             hover:shadow-xl hover:scale-105 cursor-default
             ${
               isHeader
-                ? "bg-gradient-to-r from-tasyeer-maroon to-red-700 text-white border-4 border-tasyeer-maroon px-6 py-4"
+                ? "bg-gradient-to-r from-tasyeer-maroon to-red-700 text-white border-2 sm:border-4 border-tasyeer-maroon px-3 sm:px-6 py-2 sm:py-4"
                 : isManager
-                ? "bg-gradient-to-br from-blue-400 to-blue-500 text-white border-4 border-blue-400 px-4 py-3"
-                : "bg-gradient-to-br from-blue-50 to-blue-100 text-tasyeer-maroon border-4 border-blue-300 px-3 py-2"
+                ? "bg-gradient-to-br from-blue-400 to-blue-500 text-white border-2 sm:border-4 border-blue-400 px-2 sm:px-4 py-2 sm:py-3"
+                : "bg-gradient-to-br from-blue-50 to-blue-100 text-tasyeer-maroon border-2 sm:border-4 border-blue-300 px-2 sm:px-3 py-1.5 sm:py-2"
             }
           `}
         >
-          <div className="text-xs md:text-sm lg:text-base break-words">
+          <div className="text-[10px] sm:text-xs md:text-sm lg:text-base break-words line-clamp-2">
             {isArabic ? position.titleAr : position.titleEn}
           </div>
         </div>
