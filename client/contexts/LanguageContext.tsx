@@ -297,7 +297,7 @@ const translations = {
   "footer.contact": { ar: "معلومات الاتصال", en: "Contact Information" },
   "footer.location": {
     ar: "أبو ظبي - ايكاد 1 - شارع الصقلاوي",
-    en: "Abu Dhabi - ICAD1 - Suqal Street",
+    en: "Abu Dhabi - ICAD1 - Al Saqlawi St",
   },
   "footer.phone": { ar: "الهاتف", en: "Phone" },
   "footer.email": { ar: "البريد الإلكتروني", en: "Email" },
