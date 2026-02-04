@@ -161,8 +161,8 @@ export const CTASection = () => {
                 <p className="text-white/60 text-sm mb-1">
                   {isArabic ? "راسلنا" : "Email Us"}
                 </p>
-                <p className="text-white text-lg font-bold">
-                  head@tasyeercompany.com
+                <p className="text-white text-lg font-bold force-ltr">
+                  info@tasyeercompany.com
                 </p>
               </div>
             </motion.div>
