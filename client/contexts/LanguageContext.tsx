@@ -58,11 +58,11 @@ const translations = {
   "projects.viewall": { ar: "عرض جميع المشاريع", en: "View All Projects" },
 
   // About Page
-  "about.title": { ar: "عن تسيير", en: "About Tasyeer" },
+  "about.title": { ar: "عن تسيير", en: "About TASYEER" },
   "about.founded": { ar: "تأسست عام", en: "Founded in" },
   "about.intro": {
     ar: "شركة تسيير للمقاولات العامة هي شركة متخصصة في خدمات دعم البنية التحتية في الإمارات العربية المتحدة. مع تاريخ يعود إلى عام 2019، استقرت الشركة كلاعب رئيسي في قطاعات مختلفة بما فيها الطرق السريعة والنقل والسكك الحديدية والطاقة وإدارة النفايات والمرافق العامة.",
-    en: "Tasyeer General Contracting is a leading infrastructure support services company based in the UAE. With a history dating back to 2019, we have established ourselves as a key player in various sectors including highways, transportation, railway, energy, waste management, and utilities.",
+    en: "TASYEER General Contracting is a leading infrastructure support services company based in the UAE. With a history dating back to 2019, we have established ourselves as a key player in various sectors including highways, transportation, railway, energy, waste management, and utilities.",
   },
   "about.vision.title": { ar: "رؤيتنا", en: "Our Vision" },
   "about.vision.content": {
