@@ -321,7 +321,8 @@ export default function Contact() {
                   <div className="flex items-center gap-4">
                     <Mail className="w-6 h-6 text-tasyeer-orange flex-shrink-0" />
                     <div>
-                      <p className="text-sm text-gray-300">info@tasyeer.ae</p>
+                      <p className="text-sm text-gray-300">head@tasyeercompany.com</p>
+                      <p className="text-sm text-gray-300">info@tasyeercompany.com</p>
                     </div>
                   </div>
                 </div>
