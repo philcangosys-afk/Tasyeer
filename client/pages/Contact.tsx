@@ -52,6 +52,15 @@ export default function Contact() {
       forceLtr: true,
     },
     {
+      icon: <Linkedin className="w-8 h-8" />,
+      titleAr: "لينكدإن",
+      titleEn: "LinkedIn",
+      contentAr: "linkedin.com/company/tasyeer-general-contracting",
+      contentEn: "linkedin.com/company/tasyeer-general-contracting",
+      link: "https://www.linkedin.com/company/tasyeer-general-contracting/",
+      forceLtr: true,
+    },
+    {
       icon: <Clock className="w-8 h-8" />,
       titleAr: "ساعات العمل",
       titleEn: "Office Hours",
