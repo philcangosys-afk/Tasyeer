@@ -329,10 +329,12 @@ export default function About() {
                   <p className="text-gray-200 text-sm mb-2">
                     {isArabic ? "الاتصال:" : "Contact:"}
                   </p>
-                  <p className="text-lg">+971 2 583 0412</p>
-                  <p className="text-lg">+971 58 638 6522</p>
-                  <p className="text-lg">head@tasyeercompany.com</p>
-                  <p className="text-lg">info@tasyeercompany.com</p>
+                  <div className="space-y-1 force-ltr">
+                    <p className="text-lg">+971 2 583 0412</p>
+                    <p className="text-lg">+971 58 638 6522</p>
+                    <p className="text-lg">head@tasyeercompany.com</p>
+                    <p className="text-lg">info@tasyeercompany.com</p>
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -367,9 +369,11 @@ export default function About() {
                   <p className="text-gray-200 text-sm mb-2">
                     {isArabic ? "الاتصال:" : "Contact:"}
                   </p>
-                  <p className="text-lg">+971 4 583 3820</p>
-                  <p className="text-lg">+971 50 202 2208</p>
-                  <p className="text-lg">info@tasyeercompany.com</p>
+                  <div className="space-y-1 force-ltr">
+                    <p className="text-lg">+971 4 583 3820</p>
+                    <p className="text-lg">+971 50 202 2208</p>
+                    <p className="text-lg">info@tasyeercompany.com</p>
+                  </div>
                 </div>
               </div>
             </motion.div>
