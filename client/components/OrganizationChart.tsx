@@ -153,6 +153,37 @@ export const OrganizationChart = () => {
     return positions.filter((pos) => pos.level === level);
   };
 
+  const mobileOrder = [
+    "chairman",
+    "gm",
+    "secretary",
+    "hr",
+    "qty",
+    "qa",
+    "pe",
+    "accountant",
+    "documents",
+    "draftsman",
+    "se",
+    "foreman",
+    "ls",
+    "siteForeman",
+    "assistSurveyor",
+    "operators",
+    "chainmen",
+    "helpers",
+  ];
+
+  const getMobileBoxStyles = (level: number) => {
+    if (level === 0) {
+      return "bg-gradient-to-r from-tasyeer-maroon to-red-700 text-white border-tasyeer-maroon";
+    }
+    if (level === 1) {
+      return "bg-gradient-to-br from-blue-400 to-blue-500 text-white border-blue-400";
+    }
+    return "bg-gradient-to-br from-blue-50 to-blue-100 text-tasyeer-maroon border-blue-300";
+  };
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -234,9 +265,34 @@ export const OrganizationChart = () => {
           </p>
         </motion.div>
 
-        {/* Chart Container */}
+        {/* Mobile Chart */}
+        <div className="md:hidden">
+          <div className="space-y-3">
+            {mobileOrder.map((id) => {
+              const position = positions.find((item) => item.id === id);
+              if (!position) return null;
+              return (
+                <div
+                  key={id}
+                  className={`rounded-lg border-2 px-3 py-2 shadow-sm ${getMobileBoxStyles(position.level)} ${
+                    isArabic ? "text-right" : "text-left"
+                  }`}
+                  style={{
+                    marginInlineStart: position.level * 10,
+                  }}
+                >
+                  <div className="text-xs font-bold">
+                    {isArabic ? position.titleAr : position.titleEn}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Desktop Chart */}
         <motion.div
-          className="overflow-x-auto pb-6 md:pb-8"
+          className="hidden md:block overflow-x-auto pb-6 md:pb-8"
           initial="hidden"
           whileInView="visible"
           variants={containerVariants}
