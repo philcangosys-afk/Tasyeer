@@ -16,15 +16,6 @@ export default function Services() {
 
   const services = [
     {
-      icon: <Building2 className="w-12 h-12" />,
-      titleAr: "أعمال البنية التحتية",
-      titleEn: "Infrastructure Works",
-      descAr:
-        "خدمات شاملة لتطوير وتحسين البنية التحتية الأساسية باستخدام أحدث التكنولوجيا",
-      descEn:
-        "Comprehensive services for developing and improving essential infrastructure using latest technology",
-    },
-    {
       icon: <Hammer className="w-12 h-12" />,
       titleAr: "بناء الطرق السريعة",
       titleEn: "Highways Construction",
