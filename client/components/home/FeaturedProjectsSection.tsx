@@ -34,66 +34,20 @@ export const FeaturedProjectsSection = () => {
   const projects: Project[] = [
     {
       id: 1,
-      titleAr: "مشروع رصف طريق السويحان",
-      titleEn: "Suwaihan Paving Project",
-      clientAr: "بلدية أبو ظبي",
-      clientEn: "Abu Dhabi Municipality",
+      titleAr:
+        "تصميم وتنفيذ البنية التحتية وأعمال الهاردسكيب لمحطة أدنوك في مدينة أبوظبي، الخالدية",
+      titleEn:
+        "Design and Construction of Infrastructure and Hardscaping for the ADNOC Station in Abu Dhabi City, Al Khaldia",
+      clientAr: "ADNOC",
+      clientEn: "ADNOC",
       descriptionAr:
-        "مشروع رصف شامل لطريق السويحان الرئيسي بطول 25 كم مع تحسين البنية التحتية وأنظمة الصرف المتقدمة",
+        "تصميم وتنفيذ أعمال البنية التحتية والهاردسكيب لمحطة أدنوك في أبوظبي - الخالدية.",
       descriptionEn:
-        "Comprehensive paving project for Suwaihan main road spanning 25km with infrastructure improvements",
+        "Design and construction of infrastructure and hardscaping works for the ADNOC station in Abu Dhabi - Al Khaldia.",
       imageUrl:
-        "https://images.pexels.com/photos/33448106/pexels-photo-33448106.jpeg?w=1200&h=800&fit=crop",
-      categoryAr: "البنية التحتية",
-      categoryEn: "Infrastructure",
-      year: "2023",
-    },
-    {
-      id: 2,
-      titleAr: "مدينة محمد بن زايد",
-      titleEn: "Mohammed Bin Zayed City",
-      clientAr: "الدار العقارية",
-      clientEn: "Aldar Properties",
-      descriptionAr:
-        "تطوير كامل للبنية التحتية لمشروع سكني متعدد الاستخدامات يضم آلاف الوحدات السكنية",
-      descriptionEn:
-        "Complete infrastructure development for a mixed-use residential project with thousands of units",
-      imageUrl:
-        "https://images.pexels.com/photos/32403578/pexels-photo-32403578.jpeg?w=1200&h=800&fit=crop",
-      categoryAr: "المشاريع السكنية",
-      categoryEn: "Residential",
-      year: "2022",
-    },
-    {
-      id: 3,
-      titleAr: "حديقة العين الوطنية",
-      titleEn: "Al Ain National Park",
-      clientAr: "بلدية العين",
-      clientEn: "Al Ain Municipality",
-      descriptionAr:
-        "مشروع تنسيق حدائق واسع النطاق بمساحة 150 هكتار مع مساحات خضراء ومرافق ترفيهية",
-      descriptionEn:
-        "Large-scale landscaping project covering 150 hectares with green spaces and recreational facilities",
-      imageUrl:
-        "https://images.pexels.com/photos/33917299/pexels-photo-33917299.jpeg?w=1200&h=800&fit=crop",
-      categoryAr: "تنسيق المناظر الطبيعية",
-      categoryEn: "Landscaping",
-      year: "2021",
-    },
-    {
-      id: 4,
-      titleAr: "شبكات الري الزراعي",
-      titleEn: "Agricultural Irrigation Network",
-      clientAr: "وزارة الزراعة",
-      clientEn: "Ministry of Agriculture",
-      descriptionAr:
-        "تطوير نظام ري متطور موفر للمياه يخدم أكثر من 5000 هكتار من الأراضي الزراعية",
-      descriptionEn:
-        "Advanced water-saving irrigation system development serving over 5000 hectares of agricultural land",
-      imageUrl:
-        "https://images.pexels.com/photos/17765487/pexels-photo-17765487.jpeg?w=1200&h=800&fit=crop",
-      categoryAr: "أنظمة الري",
-      categoryEn: "Irrigation",
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa7ba7644ac744e678e9c495fc20ef4f2?format=webp&width=800&height=1200",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
       year: "2023",
     },
   ];
