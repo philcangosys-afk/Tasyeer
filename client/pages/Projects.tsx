@@ -48,7 +48,7 @@ export default function Projects() {
         "Irrigation relocation and HDD works for the MBZ - Z29 development in Mohammed Bin Zayed City.",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F776bbbd2a6b54fe2b89e96b0cdc78677?format=webp&width=800&height=1200",
-      status: "Ongoing",
+      status: "Completed",
     },
     {
       id: 3,
