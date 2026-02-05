@@ -50,6 +50,42 @@ export const FeaturedProjectsSection = () => {
       categoryEn: "Roads & Infrastructure",
       year: "2023",
     },
+    {
+      id: 2,
+      titleAr:
+        "تنفيذ تحويل شبكات الري وأعمال الحفر الأفقي (HDD) لمشروع تطوير MBZ - Z29",
+      titleEn:
+        "Design and Implementation Irrigation Relocation & HDD Works, MBZ - Z29 Development for The Construction Of Infrastructure and Streetscape in Abu Dhabi",
+      clientAr: "Western Bainoona Group",
+      clientEn: "Western Bainoona Group",
+      descriptionAr:
+        "أعمال تحويل شبكات الري والحفر الأفقي لمشروع تطوير MBZ - Z29 في مدينة محمد بن زايد.",
+      descriptionEn:
+        "Irrigation relocation and HDD works for the MBZ - Z29 development in Mohammed Bin Zayed City.",
+      imageUrl:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F776bbbd2a6b54fe2b89e96b0cdc78677?format=webp&width=800&height=1200",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      year: "2024",
+    },
+    {
+      id: 3,
+      titleAr:
+        "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
+      titleEn:
+        "Development and maintenance of infrastructure for Mohammed Bin Zayed City in Abu Dhabi",
+      clientAr: "Musanada",
+      clientEn: "Musanada",
+      descriptionAr:
+        "تطوير وصيانة شاملة للبنية التحتية في مدينة محمد بن زايد - أبوظبي.",
+      descriptionEn:
+        "Comprehensive development and maintenance of infrastructure in Mohammed Bin Zayed City, Abu Dhabi.",
+      imageUrl:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F8570facd56894126bf3f672a42b8cb4c?format=webp&width=800&height=1200",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      year: "2022",
+    },
   ];
 
   useEffect(() => {
