@@ -29,6 +29,143 @@ export default function Projects() {
         "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fa7ba7644ac744e678e9c495fc20ef4f2?format=webp&width=800&height=1200",
       status: "Completed",
     },
+    {
+      id: 2,
+      titleAr:
+        "تنفيذ تحويل شبكات الري وأعمال الحفر الأفقي (HDD) لمشروع تطوير MBZ - Z29",
+      titleEn:
+        "Design and Implementation Irrigation Relocation & HDD Works, MBZ - Z29 Development for The Construction Of Infrastructure and Streetscape in Abu Dhabi",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "Western Bainoona Group",
+      clientEn: "Western Bainoona Group",
+      yearAr: "2024",
+      yearEn: "2024",
+      descAr:
+        "أعمال تحويل شبكات الري والحفر الأفقي لمشروع تطوير MBZ - Z29 في مدينة محمد بن زايد.",
+      descEn:
+        "Irrigation relocation and HDD works for the MBZ - Z29 development in Mohammed Bin Zayed City.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F776bbbd2a6b54fe2b89e96b0cdc78677?format=webp&width=800&height=1200",
+      status: "Ongoing",
+    },
+    {
+      id: 3,
+      titleAr:
+        "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
+      titleEn:
+        "Development and maintenance of infrastructure for Mohammed Bin Zayed City in Abu Dhabi",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "Musanada",
+      clientEn: "Musanada",
+      yearAr: "2022",
+      yearEn: "2022",
+      descAr:
+        "تطوير وصيانة شاملة للبنية التحتية في مدينة محمد بن زايد - أبوظبي.",
+      descEn:
+        "Comprehensive development and maintenance of infrastructure in Mohammed Bin Zayed City, Abu Dhabi.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F8570facd56894126bf3f672a42b8cb4c?format=webp&width=800&height=1200",
+      status: "Completed",
+    },
+    {
+      id: 4,
+      titleAr: "إنشاء جدار حجز تربة ميكانيكي (MSE)",
+      titleEn: "Construction Mechanically Stabilized Earth (MSE) retaining wall",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "Etihad Rail",
+      clientEn: "Etihad Rail",
+      yearAr: "2023",
+      yearEn: "2023",
+      descAr: "تنفيذ جدار حجز تربة ميكانيكي في بني ياس - الوثبة.",
+      descEn: "Construction of an MSE retaining wall in Bani Yas - Al Wathba.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F9f24cfda145e47fa87b2cdcc16636890?format=webp&width=800&height=1200",
+      status: "Completed",
+    },
+    {
+      id: 5,
+      titleAr:
+        "تصميم وتنفيذ بنية تحتية شاملة تشمل مواقف وممر خارجي لمركز ترحيل المخالفين",
+      titleEn:
+        "Design and implementation of comprehensive infrastructure, including parking facilities and an external access road, to serve the deportation center for violators",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "الهيئة الاتحادية للهوية والجنسية",
+      clientEn: "Federal Authority for Identity and Citizenship",
+      yearAr: "2025",
+      yearEn: "2025",
+      descAr:
+        "بنية تحتية متكاملة تشمل إنشاء مواقف سيارات وطريق وصول خارجي لخدمة مركز ترحيل المخالفين في الشامخة.",
+      descEn:
+        "Comprehensive infrastructure including parking facilities and an external access road for the deportation center in Al Shahama.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F0c3f9e20c02f47d4a43b9a3d4e38e1c4?format=webp&width=800&height=1200",
+      status: "Ongoing",
+    },
+    {
+      id: 6,
+      titleAr: "تنفيذ وتنسيق الحدائق لمشروع فلل المواطنين",
+      titleEn: "Construction and landscaping of gardens for the citizens' villa project",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "هيئة أبوظبي للإسكان",
+      clientEn: "Abu Dhabi Housing Authority",
+      yearAr: "2023",
+      yearEn: "2023",
+      descAr:
+        "تنفيذ وتنسيق الحدائق لمشروع فلل المواطنين في منطقة السعد.",
+      descEn:
+        "Construction and landscaping of gardens for the citizens' villa project in Al Sad.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F5c2d6426a29e4bdfa4be4cc9ef33cd09?format=webp&width=800&height=1200",
+      status: "Completed",
+    },
+    {
+      id: 7,
+      titleAr: "أعمال رصف بحري لمشروع الجزيرة الجديدة",
+      titleEn: "Marine paving works for the new island project",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "NMDC",
+      clientEn: "NMDC",
+      yearAr: "2024",
+      yearEn: "2024",
+      descAr:
+        "أعمال رصف بحري لمشروع الجزيرة الجديدة في جزيرة الحديريات.",
+      descEn:
+        "Marine paving works for the new island project in Al Hudayriat Island.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F470e85c16c4647779a59baf739b586cb?format=webp&width=800&height=1200",
+      status: "Ongoing",
+    },
+    {
+      id: 8,
+      titleAr: "تصميم وتنفيذ مواقف سيارات مع إنارة لطلاب جامعة خليفة",
+      titleEn: "Design and implementation of parking facilities with lighting for Khalifa University students",
+      categoryAr: "الطرق والبنية التحتية",
+      categoryEn: "Roads & Infrastructure",
+      category: "roads",
+      clientAr: "جامعة خليفة",
+      clientEn: "Khalifa University",
+      yearAr: "2026",
+      yearEn: "2026",
+      descAr:
+        "إنشاء مواقف سيارات مزودة بالإنارة لطلاب جامعة خليفة في ساس النخل.",
+      descEn:
+        "Parking facilities with lighting for Khalifa University students in Sas Al Nakhl.",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2Fde3013617d3c4fdebd51bb825ecf3bbd?format=webp&width=800&height=1200",
+      status: "Ongoing",
+    },
   ];
 
   const categories = [
