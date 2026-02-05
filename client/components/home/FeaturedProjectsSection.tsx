@@ -70,8 +70,7 @@ export const FeaturedProjectsSection = () => {
     },
     {
       id: 3,
-      titleAr:
-        "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
+      titleAr: "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
       titleEn:
         "Development and maintenance of infrastructure for Mohammed Bin Zayed City in Abu Dhabi",
       clientAr: "Musanada",

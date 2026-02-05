@@ -52,8 +52,7 @@ export default function Projects() {
     },
     {
       id: 3,
-      titleAr:
-        "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
+      titleAr: "تطوير وصيانة البنية التحتية لمدينة محمد بن زايد في أبوظبي",
       titleEn:
         "Development and maintenance of infrastructure for Mohammed Bin Zayed City in Abu Dhabi",
       categoryAr: "الطرق والبنية التحتية",
@@ -74,7 +73,8 @@ export default function Projects() {
     {
       id: 4,
       titleAr: "إنشاء جدار حجز تربة ميكانيكي (MSE)",
-      titleEn: "Construction Mechanically Stabilized Earth (MSE) retaining wall",
+      titleEn:
+        "Construction Mechanically Stabilized Earth (MSE) retaining wall",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
@@ -112,7 +112,8 @@ export default function Projects() {
     {
       id: 6,
       titleAr: "تنفيذ وتنسيق الحدائق لمشروع فلل المواطنين",
-      titleEn: "Construction and landscaping of gardens for the citizens' villa project",
+      titleEn:
+        "Construction and landscaping of gardens for the citizens' villa project",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
@@ -120,8 +121,7 @@ export default function Projects() {
       clientEn: "Abu Dhabi Housing Authority",
       yearAr: "2023",
       yearEn: "2023",
-      descAr:
-        "تنفيذ وتنسيق الحدائق لمشروع فلل المواطنين في منطقة السعد.",
+      descAr: "تنفيذ وتنسيق الحدائق لمشروع فلل المواطنين في منطقة السعد.",
       descEn:
         "Construction and landscaping of gardens for the citizens' villa project in Al Sad.",
       image:
@@ -139,8 +139,7 @@ export default function Projects() {
       clientEn: "NMDC",
       yearAr: "2024",
       yearEn: "2024",
-      descAr:
-        "أعمال رصف بحري لمشروع الجزيرة الجديدة في جزيرة الحديريات.",
+      descAr: "أعمال رصف بحري لمشروع الجزيرة الجديدة في جزيرة الحديريات.",
       descEn:
         "Marine paving works for the new island project in Al Hudayriat Island.",
       image:
@@ -150,7 +149,8 @@ export default function Projects() {
     {
       id: 8,
       titleAr: "تصميم وتنفيذ مواقف سيارات مع إنارة لطلاب جامعة خليفة",
-      titleEn: "Design and implementation of parking facilities with lighting for Khalifa University students",
+      titleEn:
+        "Design and implementation of parking facilities with lighting for Khalifa University students",
       categoryAr: "الطرق والبنية التحتية",
       categoryEn: "Roads & Infrastructure",
       category: "roads",
