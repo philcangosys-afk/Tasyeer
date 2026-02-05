@@ -145,7 +145,7 @@ export default function Projects() {
         "Marine paving works for the new island project in Al Hudayriat Island.",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2Fce04605038104603b965d31c7c18e8db%2F470e85c16c4647779a59baf739b586cb?format=webp&width=800&height=1200",
-      status: "Ongoing",
+      status: "Completed",
     },
     {
       id: 8,
