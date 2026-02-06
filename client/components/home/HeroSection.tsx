@@ -91,28 +91,57 @@ export const HeroSection = () => {
             x: [0, -30, 0],
             y: [0, -50, 0],
           }}
-          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "easeInOut",
+            delay: 2,
+          }}
         />
 
         {/* Geometric lines */}
-        <svg className="absolute inset-0 w-full h-full opacity-10" viewBox="0 0 1000 1000">
+        <svg
+          className="absolute inset-0 w-full h-full opacity-10"
+          viewBox="0 0 1000 1000"
+        >
           <motion.line
-            x1="0" y1="200" x2="1000" y2="800"
-            stroke="#EBB76A" strokeWidth="1"
+            x1="0"
+            y1="200"
+            x2="1000"
+            y2="800"
+            stroke="#EBB76A"
+            strokeWidth="1"
             initial={{ pathLength: 0 }}
             animate={{ pathLength: 1 }}
-            transition={{ duration: 3, repeat: Infinity, repeatType: "reverse" }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              repeatType: "reverse",
+            }}
           />
           <motion.line
-            x1="200" y1="0" x2="800" y2="1000"
-            stroke="#981313" strokeWidth="1"
+            x1="200"
+            y1="0"
+            x2="800"
+            y2="1000"
+            stroke="#981313"
+            strokeWidth="1"
             initial={{ pathLength: 0 }}
             animate={{ pathLength: 1 }}
-            transition={{ duration: 4, repeat: Infinity, repeatType: "reverse", delay: 1 }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              repeatType: "reverse",
+              delay: 1,
+            }}
           />
           <motion.circle
-            cx="500" cy="500" r="300"
-            stroke="#EBB76A" strokeWidth="0.5" fill="none"
+            cx="500"
+            cy="500"
+            r="300"
+            stroke="#EBB76A"
+            strokeWidth="0.5"
+            fill="none"
             initial={{ pathLength: 0, rotate: 0 }}
             animate={{ pathLength: 1, rotate: 360 }}
             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
@@ -121,7 +150,10 @@ export const HeroSection = () => {
       </div>
 
       {/* Main Content */}
-      <motion.div style={{ y, opacity }} className="container-tight relative z-10">
+      <motion.div
+        style={{ y, opacity }}
+        className="container-tight relative z-10"
+      >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Text Content */}
           <motion.div
@@ -138,7 +170,9 @@ export const HeroSection = () => {
             >
               <span className="w-2 h-2 bg-tasyeer-orange rounded-full animate-pulse"></span>
               <span className="text-sm font-medium">
-                {isArabic ? "شركة مقاولات رائدة في الإمارات" : "Leading UAE Contractor"}
+                {isArabic
+                  ? "شركة مقاولات رائدة في الإمارات"
+                  : "Leading UAE Contractor"}
               </span>
             </motion.div>
 
@@ -149,7 +183,9 @@ export const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.3] lg:leading-[1.4] mb-6 pb-2 lg:pb-4 pt-1 overflow-visible"
             >
-              <span className="block">{isArabic ? "بناء المستقبل" : "Building the"}</span>
+              <span className="block">
+                {isArabic ? "بناء المستقبل" : "Building the"}
+              </span>
               <span className="block bg-gradient-to-r from-tasyeer-orange via-yellow-400 to-tasyeer-orange bg-clip-text text-transparent">
                 {isArabic ? "بقوة واحترافية" : "Future with Power"}
               </span>
@@ -173,7 +209,10 @@ export const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4"
             >
               <motion.button
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(235,183,106,0.3)" }}
+                whileHover={{
+                  scale: 1.05,
+                  boxShadow: "0 20px 40px rgba(235,183,106,0.3)",
+                }}
                 whileTap={{ scale: 0.95 }}
                 className="group bg-gradient-to-r from-tasyeer-orange to-yellow-500 text-tasyeer-dark-gray font-bold py-4 px-8 rounded-lg inline-flex items-center gap-3 justify-center shadow-lg"
               >
@@ -185,7 +224,10 @@ export const HeroSection = () => {
                 )}
               </motion.button>
               <motion.button
-                whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
+                whileHover={{
+                  scale: 1.05,
+                  backgroundColor: "rgba(255,255,255,0.1)",
+                }}
                 whileTap={{ scale: 0.95 }}
                 className="group border-2 border-white/50 text-white font-bold py-4 px-8 rounded-lg inline-flex items-center gap-3 justify-center backdrop-blur-sm hover:border-white transition-colors"
               >
