@@ -31,7 +31,7 @@ export const HeroSection = () => {
     >
       {/* Animated Gradient Overlay */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-r from-tasyeer-maroon/30 via-transparent to-tasyeer-orange/20"
+        className="absolute inset-0 bg-gradient-to-r from-tasyeer-maroon/30 via-transparent to-tasyeer-orange/20 hidden md:block"
         animate={{
           background: [
             "linear-gradient(45deg, rgba(152,19,19,0.3) 0%, transparent 50%, rgba(235,183,106,0.2) 100%)",
@@ -41,9 +41,10 @@ export const HeroSection = () => {
         }}
         transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
       />
+      <div className="absolute inset-0 bg-gradient-to-r from-tasyeer-maroon/30 via-transparent to-tasyeer-orange/20 md:hidden" />
 
       {/* Floating Particles */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
         {particles.map((particle) => (
           <motion.div
             key={particle.id}
@@ -72,7 +73,7 @@ export const HeroSection = () => {
       </div>
 
       {/* Animated Background Shapes */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden hidden md:block">
         {/* Large glowing orbs */}
         <motion.div
           className="absolute -top-40 -right-40 w-[600px] h-[600px] bg-tasyeer-orange opacity-10 rounded-full blur-[100px]"
@@ -303,7 +304,7 @@ export const HeroSection = () => {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20"
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 hidden md:block"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
