@@ -113,7 +113,7 @@ export const CTASection = () => {
               </Link>
 
               <motion.a
-                href="tel:+97125830412"
+                href="tel:+9712583320"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="group border-2 border-white/30 text-white font-bold py-4 px-8 rounded-xl inline-flex items-center gap-3 justify-center hover:border-white hover:bg-white/10 transition-all w-full sm:w-auto"
@@ -144,7 +144,7 @@ export const CTASection = () => {
                   {isArabic ? "اتصل بنا" : "Call Us"}
                 </p>
                 <p className="text-white text-lg font-bold" dir="ltr">
-                  +971 2 583 0412
+                  +971 2 583 320
                 </p>
               </div>
             </motion.div>
